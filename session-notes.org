@@ -47,7 +47,7 @@ their stronghold. You seem to have found something...
   Adel failed a DEX check and the torch goes out. **We are in darkness**
 - Mubslai pulls out a daggar, but fails his light spell
 - Bragi fails to light a torch from his bag
-- **(current turn)** Nires
+- Nires lights his torch
 * Round 23:
 - Torch timer: 6 (Adel is holding it)
 - Adel strips the **chainmail armor** off the fourth body
