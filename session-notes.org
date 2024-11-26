@@ -1,5 +1,7 @@
 #+title: Shadow of the Unknown
-#+OPTIONS: num:nil
+#+OPTIONS: num:nil toc:nil
+#+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/raw/master/src/solarized_dark/solarized_dark.theme
+
 
 * Background
 Word has recently reached your area that two of the area's adventurers, the
