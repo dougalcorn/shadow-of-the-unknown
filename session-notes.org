@@ -31,6 +31,7 @@ their stronghold. You seem to have found something...
 - [[file:Finol.pdf][Finol]], Half-Elven Theif (Peti29)
 
 * Group Inventory [[https://docs.google.com/spreadsheets/d/1wKGWP43huwiTCq3OrRoo73uzoHA-rAxT_cWQCOraz-A/edit?usp=sharing][Spreadsheet]]
+
 * Open Threads:
 - Had previously heard diabolic chanting while near Zelligar's bedroom
 - Orcs killed had perfume and silver mirror and comb. That's weird
@@ -39,16 +40,27 @@ their stronghold. You seem to have found something...
 #+ATTR_HTML: :width 300px
 [[./images/IMG_2384.jpg]]
 
+
+* Current State
+- Everyone is in Rogahn's Bedroom
+- Bragi and Brugh are still fairly wounded
+- Finol opens the secret door the Orcs came through
+- The door out to the hallway is cracked open by Nires
+- Nires just lit a torch
+
+
 * Current Round 24:
-- Torch timer: 5 (Adel is holding it)
+- ~Torch timer: 5 (Adel is holding it)~
+  - A gust of wind blows through the room, from the one open door to the other.
+    Adel failed a DEX check and the torch goes out. **We are in darkness**
 - Adel finishes putting on chainmail armor, drops leather armor and garlic he
   picked up
-- A gust of wind blows through the room, from the one open door to the other.
-  Adel failed a DEX check and the torch goes out. **We are in darkness**
 - Mubslai pulls out a daggar, but fails his light spell
 - Bragi fails to light a torch from his bag
-- Nires lights his torch
-* Round 23:
+- Nires **lights his torch**
+
+* Past Rounds
+** Round 23
 - Torch timer: 6 (Adel is holding it)
 - Adel strips the **chainmail armor** off the fourth body
 - Mubslai waits for the party to ready
@@ -56,7 +68,7 @@ their stronghold. You seem to have found something...
 - Nires swaps his bow for a spear. Opens the doorway to the hall a crack and listens
 - Brugh finishes putting on the chainmail and takes the silver comb from Finol
 - Finol opens the door the orcs came through
-* Round 22
+** Round 22
 - Torch timer: 7 (Adel)
 - Adel heals Brugh
 - Mubslai opens the door the Orcs came out of, but it's locked
@@ -64,7 +76,7 @@ their stronghold. You seem to have found something...
 - Nires puts on the armor he looted
 - Brugh strips **chainmail** off an orc
 - Finol searches the door thoroughly and finds nothing
-* Round 21
+** Round 21
 - Torch timer: 8 (Adel)
 - Adel revives Brugh with Cure Wounds
 - Bragi strips **chainmail armor** off the Orc leader and a **45 gp silver mirror (1 XP)**
@@ -72,12 +84,12 @@ their stronghold. You seem to have found something...
   bottles**. Swaps training shield for an Orc's **shield**
 - Brugh closes all the doors
 - Finol searches the remaining orc and finds a **silver-plated comb**
-* Round 20
+** Round 20
 - Torch timer: 9 (Finol)
 - Adel leaves the bedroom and re-enters the hallway
 - Orcs (1 leader 3 others) come out from an (un-searched) tapestry
 - Some back and forth dialog with the Orcs telling us to give them our treasure
-** Combat Round 20.1
+*** Combat Round 20.1
 - Brugh attacks and misses the Orc leader
 - Finol tries and fails to hide
 - Adel steps just inside the doorway and fires and misses the Orc leader
@@ -88,7 +100,7 @@ their stronghold. You seem to have found something...
 - Mubslai splashes acid on Orc 4 but misses
 - Bragi kills Orc 3
 - Nires shoots the Orc leader with an arrow
-** Combat Round 20.2
+*** Combat Round 20.2
 - Brugh misses Orc leader
 - Finol has 1 round left to live
 - Adel moves close to Finol and cast Cure Wounds reviving Finol with a bit of luck
@@ -96,7 +108,7 @@ their stronghold. You seem to have found something...
 - Orc leader rages and attacks Brugh and misses
 - Orc 2 attacks Bragi and knocks him out
 - Orc 4 knocks Mubslai down
-** Combat Round 20.3
+*** Combat Round 20.3
 - Brugh attacks an orc and misses
 - Finol tries to stabalize Mubslai, but fails
 - Adel moves over to Mubslai and casts Cure Wounds reviving Mubslai
@@ -105,7 +117,7 @@ their stronghold. You seem to have found something...
 - Orc hits and almost knocks Brugh out
 - Mubslai double crits with Magic Missle and kills one of the Orcs
 - Nires moves away from Orc and kills the Orc with an arrow
-** Combat Round 20.4
+*** Combat Round 20.4
 - Brugh misses the remaining Orc
 - Finol shoots the Orc leader with a shortbow
 - Adel moves over to Bragi and revives him with Cure Wounds
@@ -113,7 +125,7 @@ their stronghold. You seem to have found something...
 - Mubslai kills the remaining Orc leader with Magic Missle
 - Bragi tries to stablize Brugh but fails
 - Nires manages to stabalize Brugh
-* Round 19
+** Round 19
 - Torch timer: 10 (Finol)
 - Adel casts light and fails. Waits outside the bedroom
 - Mubslai checks out the gem Brugh found. It's not enchanted, but it has been
@@ -122,14 +134,14 @@ their stronghold. You seem to have found something...
 - Nires kicks the secret door open and it loudly bangs into the wall in the
   throne room
 - Brugh moves towards the door to leave the bedroom
-* Round 18
+** Round 18
 - Torch timer: 2 (Nires and Bragi)
 - Adel waits for Finol and Nires to catch up
 - Bragi moves out of the bedroom into the hall
 - Nires rejoins the others
 - Brugh lights a torch and then examines the new secret door
 - Finol catches up to the group, takes Brugh's torch and checks for traps
-* Round 17
+** Round 17
 - Torch timer: 3 (Nires and Bragi)
 - [[https://cdn.discordapp.com/attachments/1299344192472088586/1304866302212444251/IMG_2384.jpg?ex=6746b3b1&is=67456231&hm=9218045443cfbd6ca655ad530c9d8750b1af146d7357e76803f5812979b01029&][map]]
 - Adel searches the armoire and finds nothing of value
@@ -139,7 +151,7 @@ their stronghold. You seem to have found something...
   arrows** and heads back towards the rest of the party
 - Brugh searches behind another tapestry and finds an empty armor rack
 - Finol follows Nires to catch up with the group
-* Round 16
+** Round 16
 - Torch timer: 4 (Nires and Bragi)
 - Adel searches the alcove and finds a (stuck) secret door (Room 5)
 - Mubslai tries to disolve the spider webs with acid. It works, but would take a
@@ -149,7 +161,7 @@ their stronghold. You seem to have found something...
 - Nires opens a doorway near the webs and finds a gym (Room 6)
 - Brugh forces the door in the alcove to reveal Rogahn's Bedroom
 - Finol loots a few arrows from the gym
-* Round 15
+** Round 15
 - Torch timer: 5 (Nires and Bragi)
 - Adel sneaks down the other hallway away from the stink and finds an alcove
 - Mubslai catches up to the intersection
@@ -157,7 +169,7 @@ their stronghold. You seem to have found something...
 - Nires double-moves out to the intersection and follows group towards stinky hall
 - Brugh double-moves to the alcove with Bragi and Adel
 - Finol sneaks down the stinky hallway and finds heavy spider webs
-* Round 14
+** Round 14
 - Torch timer: 5 (Nires and Bragi)
 - Adel waits in the bedroom
 - Mubslai waits in the bedroom
@@ -167,7 +179,7 @@ their stronghold. You seem to have found something...
 - Brugh takes iron spike from Nires. Scouts head and finds stinky hallway
 - Finol sneaks as far down the stinky hall as he can with the light
 - [[https://cdn.discordapp.com/attachments/1299344192472088586/1303754855852015666/IMG_2370.jpg?ex=674745d4&is=6745f454&hm=9f73a9081cca8d840d7a2bf5f6e86f0d18c29aec320f5a5a0d77250aa909ff2f&][map]]
-* Round 13
+** Round 13
 - Torch timer: 7 (sconce and Bragi)
 - Adel searches the closet
 - Mubslai enters the closet and searches through the papers
@@ -176,7 +188,7 @@ their stronghold. You seem to have found something...
 - Nires opens the other door, takes the torch from the sconce and sees (fake) treasure
 - Brugh tosses an iron spike at the treasure
 - Finol checks for traps on the remaining door
-* Round 12
+** Round 12
 - Torch timer: 8 (sconce and Bragi)
 - Adel examines Bragi's hand and searches the room
 - Mubslai picks up the **black bone**
@@ -192,7 +204,7 @@ their stronghold. You seem to have found something...
 - Brugh forces open a closet/office, finds a **lantern (without oil)**
 - Finol further searches the bedroom
 
-* Round 11
+** Round 11
 - Torch timer: 9 (Nires and Bragi)
 - Adel moves into the room and inspects the carvings on the wall
 - Mubslai tries to find the source of the chanting, but it seems to have stopped
@@ -201,7 +213,7 @@ their stronghold. You seem to have found something...
 - Nires puts his torch in a sconce and searches the room, but finds nothing
 - Brugh find **black bone** in the drawer
 - Finol closes the door and examines the black bone and the trap in the drawer
-* Round 10: Zelligar's Bedroom (Room 4)
+** Round 10: Zelligar's Bedroom (Room 4)
 - Torch timer: 10 (Nires)
 - Adel casts light on Bragi's shield. Catches up with Mubslai and Nires
 - Mubslai hears diabolic singing and waits
@@ -209,7 +221,7 @@ their stronghold. You seem to have found something...
 - Nires checks for traps and opens the door to reveal a bedroom
 - Bragi enters the room, can't find source of chanting
 - Finol double-moves to catch up to the group without entering the room
-* Round 9
+** Round 9
 - Torch timer: 2 (Mubslai and Brugh)
 - Adel follows Nires
 - Mubslai moves further down the hallway with Nires
@@ -219,7 +231,7 @@ their stronghold. You seem to have found something...
 - Brugh hands his sputtering torch to Finol and double-moves to the rest of the
   party
 - Finol follows the group and his torch goes out
-* Round 8
+** Round 8
 - Torch timer: 3 (Mubslai and Brugh)
 - Adel checks for traps on second trap door and waits for Finol
 - Mubslai takes second gem from Finol and waits
@@ -230,7 +242,7 @@ their stronghold. You seem to have found something...
   - hears singing/chanting in the distance
 - Brugh moves up to the throne with light
 - Finol pops the third **50g gem**
-* Round 7
+** Round 7
 - Torch timer: 4 (Mubslai and Brugh)
 - Adel finds a second secret door behind curtains
 - Mubslai waits to loot the other gems
@@ -239,20 +251,20 @@ their stronghold. You seem to have found something...
 - Nires waits for Finol to loot gems
 - Brugh moves to back of throne room and waits
 - Finol pops another **50gp gem**
-* Round 6:
+** Round 6:
 - Torch timer: 5 (Finol and Brugh are holding)
 - Finol gets spooked, gives torch to Mubslai, hides
 - Adel hides
 - Swarm of several large rats coming out in the entry hall
 - Brugh rushes into the throne room and closes the door
-** Combat Round 6.1:
+*** Combat Round 6.1:
 - One rat gets into the throne room
 - Finol shots the rat with his bow
 - Adel fires crossbow to kill the rat and reloads
 - Mubslai casts Mage Armor
 - Bragi moves up to the doors
 - Niles equips longbow, ready for attack
-** Combat Round 6.2:
+*** Combat Round 6.2:
 - Brugh fits iron spike to wedge the door
 - Finol recovers a gem from the throne, **50gp gem, 1 XP**
 - Nires finds a secret door behind the curtains
@@ -261,7 +273,7 @@ their stronghold. You seem to have found something...
 - Mubslai Magic Missles a Rat
 - Bragi kills the rat with a axe
 - Rats seemed to have left on the other side of the door
-* Round 5: Throne room, Room 3
+** Round 5: Throne room, Room 3
 - Torch timer: 6 (Finol, and Brugh are holding one)
 - [[https://cdn.discordapp.com/attachments/1299344192472088586/1301222668586192988/IMG_2322.jpg?ex=67474a0b&is=6745f88b&hm=bf9accde55a605fe338e73f35f3f1d4e6dbddfe9769bc7e8c0ecc725bf47f49e&][map]]
 - Finol steps into the "ballroom" and approaches the "altar"
@@ -273,7 +285,7 @@ their stronghold. You seem to have found something...
 - Bragi examines the curtains at the back of the room
 - Finol double-moves towards the back of the room
 - Brugh double-moves into the throne room
-* Round 4: Entry Hall, Room 2
+** Round 4: Entry Hall, Room 2
 - Torch timer: 7 (Finol is holding it)
 - Finol searches big door for traps and listens, but finds nothing
 - Adel searches the wizard's corpse, **finds 2gp and garlic**
@@ -282,14 +294,14 @@ their stronghold. You seem to have found something...
 - Bragi moves into the ballroom
 - Nires moves up and stays just outside the ballroom
 - Brugh (lights torch) double-moves to catch up (in the hallway outside the entry room)
-* Round 3
+** Round 3
 - Torch timer: 8 (Finol is holding it)
 - We see the room of bodies, Finol waits at the entrance
 - Adel moves into the room and searches the Fighter, **finds 5gp**
 - Mubslai moves up and searches dwarf corpse in the hall, finds nothing
 - Bragi searches an orc, **finds daggar**
 - Nires guards
-* Round 2: Hallway, Room 1
+** Round 2: Hallway, Room 1
 - Torch timer: 9 (Adel is holding it)
 - Finol moves forward to second alcoves
 - Adel follows
@@ -300,7 +312,7 @@ their stronghold. You seem to have found something...
   - "Only a group of foolhardy explorers doomed to certain death!"
   - "Woe to any who pass this place - the wrath of Zelligar and Rogahn will be
     upon them!"
-* Round 1:
+** Round 1:
 - Torch Timer: 10 (Adel is holding a torch with a light spell on it)
 - Finol searches the door for traps and finds none. Opens the door and enters
   the hallway
