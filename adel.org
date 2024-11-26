@@ -1,5 +1,6 @@
 #+title: Adel, Acolyte Halfling Priest
 #+url: https://shadowdarklings.net/create/1jeOeWVEvKJK5sAQJb4j
+#+OPTIONS: num:nil
 
 * Title: Acolyte
 * Ancecstory: Halfling

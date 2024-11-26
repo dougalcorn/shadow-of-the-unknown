@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-11-26 Tue 14:58 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Adel, Acolyte Halfling Priest</title>
+<meta name="author" content="Doug Alcorn" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Adel, Acolyte Halfling Priest</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgeaa6622">Title: Acolyte</a></li>
+<li><a href="#org30647dc">Ancecstory: Halfling</a></li>
+<li><a href="#org7b57ddd">Class: Priest</a></li>
+<li><a href="#org3007530">Background: Ranger</a></li>
+<li><a href="#org596fcd8">Alignment: Lawful</a></li>
+<li><a href="#orgbdb4b8a">Deity: Saint Terragnix of the Four Lords</a></li>
+<li><a href="#orgb0c8fbe">Abilities</a>
+<ul>
+<li><a href="#org2c6a049">Bonuses:</a></li>
+</ul>
+</li>
+<li><a href="#org795163d">Level 1: 2/10 XP</a></li>
+<li><a href="#orge227111">HP: 4/4</a></li>
+<li><a href="#org418ed0b">Luck: 1</a></li>
+<li><a href="#orgc37c422">AC: 13</a></li>
+<li><a href="#org801dc1c">Attacks:</a>
+<ul>
+<li><a href="#org7508b08">Crossbow: +2 (F), 1d6 Damage (skip move to reload 2H)</a></li>
+</ul>
+</li>
+<li><a href="#orgfc69be3">Spellcasting: 1d20 + 4</a>
+<ul>
+<li><a href="#orga4539e5">Bonuses</a></li>
+<li><a href="#org1645a13">Seer Spells Known by Spell Tier</a></li>
+<li><a href="#orgee4172e">Critical Success</a></li>
+<li><a href="#org4cc4bbb">Critical Failure</a>
+<ul>
+<li><a href="#orgcb03fc7">Priest Penance</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org44abdd9">Spells:</a>
+<ul>
+<li><a href="#orgf1f5ef5">Turn Undead&#xa0;&#xa0;&#xa0;<span class="tag"><span class="t1">t1</span>&#xa0;<span class="near">near</span></span></a></li>
+<li><a href="#org5b9b2a0">Light&#xa0;&#xa0;&#xa0;<span class="tag"><span class="t1">t1</span>&#xa0;<span class="close">close</span></span></a></li>
+<li><a href="#orgd7c66e6">Cure Wounds&#xa0;&#xa0;&#xa0;<span class="tag"><span class="t1">t1</span>&#xa0;<span class="close">close</span></span></a></li>
+</ul>
+</li>
+<li><a href="#org6e4d95c">Gear:</a>
+<ul>
+<li><a href="#org9f0622e">Items</a></li>
+<li><a href="#orge9a4ed2">Free to carry</a></li>
+<li><a href="#orgdfb8d94">Coins: 21 gp, 7 sp, 0 cp</a></li>
+<li><a href="#orgcabfe05">Transactions:</a></li>
+</ul>
+</li>
+<li><a href="#org5d18c29">Talents:</a>
+<ul>
+<li><a href="#org3528afd">Weapons: Club, crossbow, dagger, mace, longsword, staff, warhammer</a></li>
+<li><a href="#org2790609">Armor: All armor and shields</a></li>
+<li><a href="#orgd69c9aa">Languages: Common, Celestial</a></li>
+<li><a href="#org82f9aa8">Halfling Stealthy: Once per day, you can become invisible for 3 rounds.</a></li>
+<li><a href="#orge7b500e">Priest Turn Undead: You know the <i>turn undead</i> spell. It doesn&rsquo;t count toward your number of spells.</a></li>
+<li><a href="#orgb8a887b">Priest Spelcasting: You can cast priest spells you know.</a>
+<ul>
+<li><a href="#orgfb1fdad">You know two tier 1 spells of your choice from the priest spell list</a></li>
+<li><a href="#org2a18a7e">Each time you gain a level, you choose a new priest spell to learn according to the prist spells known table.</a></li>
+</ul>
+</li>
+<li><a href="#org325e191">Priest Deity</a></li>
+<li><a href="#org5276886">Priest Class Talent Table:</a></li>
+<li><a href="#org651c21b">Priest-1: +1 to priest spellcasting checks</a></li>
+</ul>
+</li>
+<li><a href="#orga937e6f">History/Notes</a>
+<ul>
+<li><a href="#org87ed391">Roscoe the arcane trickster</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgeaa6622" class="outline-2">
+<h2 id="orgeaa6622">Title: Acolyte</h2>
+</div>
+<div id="outline-container-org30647dc" class="outline-2">
+<h2 id="org30647dc">Ancecstory: Halfling</h2>
+<div class="outline-text-2" id="text-org30647dc">
+<p>
+Small, cheerful country folk with mischievous streaks. They enjoy life&rsquo;s simple pleasures.
+</p>
+<ul class="org-ul">
+<li>You know the Common</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7b57ddd" class="outline-2">
+<h2 id="org7b57ddd">Class: Priest</h2>
+<div class="outline-text-2" id="text-org7b57ddd">
+<p>
+Crusading templars, prophetic shamans, or mad-eyed zealots who wield the power of their gods to cleanse the unholy.
+</p>
+</div>
+</div>
+<div id="outline-container-org3007530" class="outline-2">
+<h2 id="org3007530">Background: Ranger</h2>
+<div class="outline-text-2" id="text-org3007530">
+<p>
+<i>The woods and wilds are your true home</i>
+</p>
+</div>
+</div>
+<div id="outline-container-org596fcd8" class="outline-2">
+<h2 id="org596fcd8">Alignment: Lawful</h2>
+<div class="outline-text-2" id="text-org596fcd8">
+<p>
+Lawful characters align themselves with fairness, order, and virtue.
+Lawful characters operate from a “good of the whole” mentality.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbdb4b8a" class="outline-2">
+<h2 id="orgbdb4b8a">Deity: Saint Terragnix of the Four Lords</h2>
+<div class="outline-text-2" id="text-orgbdb4b8a">
+<p>
+A legendary knight who is the patron of most lawful humans. She ascended to
+godhood long ago and is the embodiment of righteousness and justice.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb0c8fbe" class="outline-2">
+<h2 id="orgb0c8fbe">Abilities</h2>
+<div class="outline-text-2" id="text-orgb0c8fbe">
+<table id="org2fcab54" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Ability</th>
+<th scope="col" class="org-right">Score</th>
+<th scope="col" class="org-right">Mod</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">STR</td>
+<td class="org-right">6</td>
+<td class="org-right">-2</td>
+</tr>
+
+<tr>
+<td class="org-left">DEX</td>
+<td class="org-right">14</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">CON</td>
+<td class="org-right">7</td>
+<td class="org-right">-2</td>
+</tr>
+
+<tr>
+<td class="org-left">INT</td>
+<td class="org-right">8</td>
+<td class="org-right">-1</td>
+</tr>
+
+<tr>
+<td class="org-left">WIS</td>
+<td class="org-right">16</td>
+<td class="org-right">3</td>
+</tr>
+
+<tr>
+<td class="org-left">CHA</td>
+<td class="org-right">14</td>
+<td class="org-right">2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="outline-container-org2c6a049" class="outline-3">
+<h3 id="org2c6a049">Bonuses:</h3>
+</div>
+</div>
+<div id="outline-container-org795163d" class="outline-2">
+<h2 id="org795163d">Level 1: 2/10 XP</h2>
+</div>
+<div id="outline-container-orge227111" class="outline-2">
+<h2 id="orge227111">HP: 4/4</h2>
+<div class="outline-text-2" id="text-orge227111">
+<ul class="org-ul">
+<li>Level 1: [1d6] =&gt; 6 (-2 CON)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org418ed0b" class="outline-2">
+<h2 id="org418ed0b">Luck: 1</h2>
+<div class="outline-text-2" id="text-org418ed0b">
+<ul class="org-ul">
+<li>for lighting up the first &ldquo;torch&rdquo; :-)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc37c422" class="outline-2">
+<h2 id="orgc37c422">AC: 13</h2>
+<div class="outline-text-2" id="text-orgc37c422">
+<ul class="org-ul">
+<li>10 + 2 DEX modifier</li>
+<li>Leather armor +1 AC</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org801dc1c" class="outline-2">
+<h2 id="org801dc1c">Attacks:</h2>
+<div class="outline-text-2" id="text-org801dc1c">
+</div>
+<div id="outline-container-org7508b08" class="outline-3">
+<h3 id="org7508b08">Crossbow: +2 (F), 1d6 Damage (skip move to reload 2H)</h3>
+</div>
+</div>
+<div id="outline-container-orgfc69be3" class="outline-2">
+<h2 id="orgfc69be3">Spellcasting: 1d20 + 4</h2>
+<div class="outline-text-2" id="text-orgfc69be3">
+</div>
+<div id="outline-container-orga4539e5" class="outline-3">
+<h3 id="orga4539e5">Bonuses</h3>
+<div class="outline-text-3" id="text-orga4539e5">
+<ul class="org-ul">
+<li>Priest-1 Talent: +1</li>
+<li>WIS Modifier: +3</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1645a13" class="outline-3">
+<h3 id="org1645a13">Seer Spells Known by Spell Tier</h3>
+<div class="outline-text-3" id="text-org1645a13">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Level</th>
+<th scope="col" class="org-right">1</th>
+<th scope="col" class="org-right">2</th>
+<th scope="col" class="org-right">3</th>
+<th scope="col" class="org-right">4</th>
+<th scope="col" class="org-right">5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">2</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-right">3</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">1</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-right">3</td>
+<td class="org-right">2</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">5</td>
+<td class="org-right">3</td>
+<td class="org-right">2</td>
+<td class="org-right">1</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">6</td>
+<td class="org-right">3</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">7</td>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">2</td>
+<td class="org-right">1</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">8</td>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">9</td>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-right">10</td>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgee4172e" class="outline-3">
+<h3 id="orgee4172e">Critical Success</h3>
+<div class="outline-text-3" id="text-orgee4172e">
+<p>
+If you roll a natural 20 on your spellcasting check, you may double one of the
+spell’s numerical effects. This remains in effect on a focus spell until your
+next focus check.
+</p>
+</div>
+</div>
+<div id="outline-container-org4cc4bbb" class="outline-3">
+<h3 id="org4cc4bbb">Critical Failure</h3>
+<div class="outline-text-3" id="text-org4cc4bbb">
+<p>
+If you roll a natural 1 on your spellcasting check, the spell does not take
+effect. If it was a <b>focus</b> spell, the spell immediately ends.
+</p>
+
+<p>
+Your deity is greatly displeased and revokes its power. You can&rsquo;t cast that
+spell again until you complete a ritualistic penance to your deity and
+successfully complete a rest.
+</p>
+</div>
+<div id="outline-container-orgcb03fc7" class="outline-4">
+<h4 id="orgcb03fc7">Priest Penance</h4>
+<div class="outline-text-4" id="text-orgcb03fc7">
+<p>
+The GM determines the exact nature of the penance you must undertake based on
+your deity and alignment.
+</p>
+
+<p>
+Penance requires a holy quest, ritualistic atonement, or a material sacrifice
+that you donate or destroy.
+</p>
+
+<p>
+Inadequate or subversive penance (such as donating your sacrifice to a party
+member) only displeases your deity further and makes the spell loss permanent.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org242d140"></a>Sacrifice Value by Spell Tier<br />
+<div class="outline-text-5" id="text-org242d140">
+<ol class="org-ol">
+<li>5 gp</li>
+<li>20 gp</li>
+<li>40 gp</li>
+<li>90 gp</li>
+<li>150 gp</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org44abdd9" class="outline-2">
+<h2 id="org44abdd9">Spells:</h2>
+<div class="outline-text-2" id="text-org44abdd9">
+</div>
+<div id="outline-container-orgf1f5ef5" class="outline-3">
+<h3 id="orgf1f5ef5">Turn Undead&#xa0;&#xa0;&#xa0;<span class="tag"><span class="t1">t1</span>&#xa0;<span class="near">near</span></span></h3>
+<div class="outline-text-3" id="text-orgf1f5ef5">
+<p>
+<i>You rebuke undead creatures, forcing them to flee</i>
+</p>
+<ul class="org-ul">
+<li>Tier 1, priest</li>
+<li>Duration: Instant</li>
+<li>Range: Near</li>
+<li>You must present a holy symbol to cast this spell</li>
+<li>Undead creatures within near of you must make a CHA check vs. your spellcasting check.</li>
+<li>If a creature fails by 10+ points and is equal to or less than your level, it is destroyed</li>
+<li>Otherwise, on a fail, it flees from you for 5 rounds.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5b9b2a0" class="outline-3">
+<h3 id="org5b9b2a0">Light&#xa0;&#xa0;&#xa0;<span class="tag"><span class="t1">t1</span>&#xa0;<span class="close">close</span></span></h3>
+<div class="outline-text-3" id="text-org5b9b2a0">
+<p>
+<i>One object you touch glows with bright, heatless light</i>
+</p>
+<ul class="org-ul">
+<li>Tier 1, priest, wizard</li>
+<li>Duration: 1 hour real time</li>
+<li>Range: Close</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd7c66e6" class="outline-3">
+<h3 id="orgd7c66e6">Cure Wounds&#xa0;&#xa0;&#xa0;<span class="tag"><span class="t1">t1</span>&#xa0;<span class="close">close</span></span></h3>
+<div class="outline-text-3" id="text-orgd7c66e6">
+<p>
+<i>Your touch restores ebbing life.</i>
+</p>
+<ul class="org-ul">
+<li>Tier 1, priest</li>
+<li>Duration: Instant</li>
+<li>Range: Close</li>
+<li>Roll a number of d6s equal to 1 + 1/2 your level (rounded down).</li>
+<li>One target you touch regains that many hit points.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org6e4d95c" class="outline-2">
+<h2 id="org6e4d95c">Gear:</h2>
+<div class="outline-text-2" id="text-org6e4d95c">
+</div>
+<div id="outline-container-org9f0622e" class="outline-3">
+<h3 id="org9f0622e">Items</h3>
+<div class="outline-text-3" id="text-org9f0622e">
+<ol class="org-ol">
+<li>&ldquo;Light&rdquo; Chainmail AC 12/2 slots</li>
+<li>&#x2013;&#x2014;</li>
+<li>Chrossbow bolts (20)</li>
+<li>Flask or bottle</li>
+<li>Rations (3)</li>
+<li>Grappling hook</li>
+<li>Iron spikes (9)</li>
+<li>Rope, 60&rsquo;</li>
+<li></li>
+
+<li></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orge9a4ed2" class="outline-3">
+<h3 id="orge9a4ed2">Free to carry</h3>
+<div class="outline-text-3" id="text-orge9a4ed2">
+<ul class="org-ul">
+<li>Backpack</li>
+<li>Holy Symbol: Pendant with Saint Terragnix&rsquo; crest on a chain around my neck</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgdfb8d94" class="outline-3">
+<h3 id="orgdfb8d94">Coins: 21 gp, 7 sp, 0 cp</h3>
+</div>
+<div id="outline-container-orgcabfe05" class="outline-3">
+<h3 id="orgcabfe05">Transactions:</h3>
+<div class="outline-text-3" id="text-orgcabfe05">
+<ul class="org-ul">
+<li>Found 5g on dead fighter</li>
+<li>Found 2g, garlic on dead wizard.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org5d18c29" class="outline-2">
+<h2 id="org5d18c29">Talents:</h2>
+<div class="outline-text-2" id="text-org5d18c29">
+</div>
+<div id="outline-container-org3528afd" class="outline-3">
+<h3 id="org3528afd">Weapons: Club, crossbow, dagger, mace, longsword, staff, warhammer</h3>
+</div>
+<div id="outline-container-org2790609" class="outline-3">
+<h3 id="org2790609">Armor: All armor and shields</h3>
+</div>
+<div id="outline-container-orgd69c9aa" class="outline-3">
+<h3 id="orgd69c9aa">Languages: Common, Celestial</h3>
+</div>
+<div id="outline-container-org82f9aa8" class="outline-3">
+<h3 id="org82f9aa8">Halfling Stealthy: Once per day, you can become invisible for 3 rounds.</h3>
+</div>
+<div id="outline-container-orge7b500e" class="outline-3">
+<h3 id="orge7b500e">Priest Turn Undead: You know the <i>turn undead</i> spell. It doesn&rsquo;t count toward your number of spells.</h3>
+</div>
+<div id="outline-container-orgb8a887b" class="outline-3">
+<h3 id="orgb8a887b">Priest Spelcasting: You can cast priest spells you know.</h3>
+<div class="outline-text-3" id="text-orgb8a887b">
+</div>
+<div id="outline-container-orgfb1fdad" class="outline-4">
+<h4 id="orgfb1fdad">You know two tier 1 spells of your choice from the priest spell list</h4>
+</div>
+<div id="outline-container-org2a18a7e" class="outline-4">
+<h4 id="org2a18a7e">Each time you gain a level, you choose a new priest spell to learn according to the prist spells known table.</h4>
+</div>
+</div>
+<div id="outline-container-org325e191" class="outline-3">
+<h3 id="org325e191">Priest Deity</h3>
+<div class="outline-text-3" id="text-org325e191">
+<p>
+Choose a god to serve who matches your alignment. You have a holy symbol of your
+got (it takes up no gear slots).
+</p>
+</div>
+</div>
+<div id="outline-container-org5276886" class="outline-3">
+<h3 id="org5276886">Priest Class Talent Table:</h3>
+<div class="outline-text-3" id="text-org5276886">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">2d6</th>
+<th scope="col" class="org-left">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">2</td>
+<td class="org-left">Gain advantage on casting one spell you know</td>
+</tr>
+
+<tr>
+<td class="org-right">3-6</td>
+<td class="org-left">+1 to melee or ranged attacks</td>
+</tr>
+
+<tr>
+<td class="org-right">7-9</td>
+<td class="org-left">+1 to priest spellcasting checks</td>
+</tr>
+
+<tr>
+<td class="org-right">10-11</td>
+<td class="org-left">+2 to Strength or Wisdom stat</td>
+</tr>
+
+<tr>
+<td class="org-right">12</td>
+<td class="org-left">Choose a talent or +2 points to distribute to stats</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org651c21b" class="outline-3">
+<h3 id="org651c21b">Priest-1: +1 to priest spellcasting checks</h3>
+</div>
+</div>
+<div id="outline-container-orga937e6f" class="outline-2">
+<h2 id="orga937e6f">History/Notes</h2>
+<div class="outline-text-2" id="text-orga937e6f">
+</div>
+<div id="outline-container-org87ed391" class="outline-3">
+<h3 id="org87ed391">Roscoe the arcane trickster</h3>
+<div class="outline-text-3" id="text-org87ed391">
+<p>
+<a href="https://www.worldanvil.com/hero/f6053b53-46ac-4e27-8d77-1d13bd3be470">https://www.worldanvil.com/hero/f6053b53-46ac-4e27-8d77-1d13bd3be470</a>
+<img src="./Roscoe.jpg" alt="Roscoe.jpg" />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Doug Alcorn</p>
+<p class="date">Created: 2024-11-26 Tue 14:58</p>
+</div>
+</body>
+</html>
