@@ -1,0 +1,166 @@
+#+title: Adel, Acolyte Halfling Priest
+#+url: https://shadowdarklings.net/create/1jeOeWVEvKJK5sAQJb4j
+
+* Title: Acolyte
+* Ancecstory: Halfling
+Small, cheerful country folk with mischievous streaks. They enjoy life's simple pleasures.
+- You know the Common
+* Class: Priest
+Crusading templars, prophetic shamans, or mad-eyed zealots who wield the power of their gods to cleanse the unholy.
+* Background: Ranger
+/The woods and wilds are your true home/
+* Alignment: Lawful
+Lawful characters align themselves with fairness, order, and virtue.
+Lawful characters operate from a “good of the whole” mentality.
+* Deity: Saint Terragnix of the Four Lords
+A legendary knight who is the patron of most lawful humans. She ascended to
+godhood long ago and is the embodiment of righteousness and justice.
+
+
+* Abilities
+#+TBLNAME: Abilities
+| Ability | Score | Mod |
+|---------+-------+-----|
+| STR     |     6 |  -2 |
+| DEX     |    14 |   2 |
+| CON     |     7 |  -2 |
+| INT     |     8 |  -1 |
+| WIS     |    16 |   3 |
+| CHA     |    14 |   2 |
+#+TBLFM: $3=floor(($2-10)/2);N
+** Bonuses:
+
+
+* Level 1: 2/10 XP
+* HP: 4/4
+- Level 1: [1d6] => 6 (-2 CON)
+* Luck: 1
+- for lighting up the first "torch" :-)
+
+* AC: 13
+- 10 + 2 DEX modifier
+- Leather armor +1 AC
+
+
+* Attacks:
+** Crossbow: +2 (F), 1d6 Damage (skip move to reload 2H)
+* Spellcasting: 1d20 + 4
+** Bonuses
+- Priest-1 Talent: +1
+- WIS Modifier: +3
+** Seer Spells Known by Spell Tier
+| Level | 1 | 2 | 3 | 4 | 5 |
+|-------+---+---+---+---+---|
+|     1 | 2 |   |   |   |   |
+|     2 | 3 |   |   |   |   |
+|     3 | 3 | 1 |   |   |   |
+|     4 | 3 | 2 |   |   |   |
+|     5 | 3 | 2 | 1 |   |   |
+|     6 | 3 | 2 | 2 |   |   |
+|     7 | 3 | 3 | 2 | 1 |   |
+|     8 | 3 | 3 | 2 | 2 |   |
+|     9 | 3 | 3 | 2 | 2 | 1 |
+|    10 | 3 | 3 | 3 | 2 | 2 |
+** Critical Success
+If you roll a natural 20 on your spellcasting check, you may double one of the
+spell’s numerical effects. This remains in effect on a focus spell until your
+next focus check.
+
+** Critical Failure
+If you roll a natural 1 on your spellcasting check, the spell does not take
+effect. If it was a *focus* spell, the spell immediately ends.
+
+Your deity is greatly displeased and revokes its power. You can't cast that
+spell again until you complete a ritualistic penance to your deity and
+successfully complete a rest.
+*** Priest Penance
+The GM determines the exact nature of the penance you must undertake based on
+your deity and alignment.
+
+Penance requires a holy quest, ritualistic atonement, or a material sacrifice
+that you donate or destroy.
+
+Inadequate or subversive penance (such as donating your sacrifice to a party
+member) only displeases your deity further and makes the spell loss permanent.
+
+**** Sacrifice Value by Spell Tier
+1. 5 gp
+2. 20 gp
+3. 40 gp
+4. 90 gp
+5. 150 gp
+
+
+* Spells:
+** Turn Undead                                              :t1:near:
+/You rebuke undead creatures, forcing them to flee/
+- Tier 1, priest
+- Duration: Instant
+- Range: Near
+- You must present a holy symbol to cast this spell
+- Undead creatures within near of you must make a CHA check vs. your spellcasting check.
+- If a creature fails by 10+ points and is equal to or less than your level, it is destroyed
+- Otherwise, on a fail, it flees from you for 5 rounds.
+** Light                                                   :t1:close:
+/One object you touch glows with bright, heatless light/
+- Tier 1, priest, wizard
+- Duration: 1 hour real time
+- Range: Close
+** Cure Wounds                                             :t1:close:
+/Your touch restores ebbing life./
+- Tier 1, priest
+- Duration: Instant
+- Range: Close
+- Roll a number of d6s equal to 1 + 1/2 your level (rounded down).
+- One target you touch regains that many hit points.
+
+
+* Gear:
+** Items
+1. "Light" Chainmail AC 12/2 slots
+2. -----
+3. Chrossbow bolts (20)
+4. Flask or bottle
+5. Rations (3)
+6. Grappling hook
+7. Iron spikes (9)
+8. Rope, 60'
+9.
+10.
+** Free to carry
+- Backpack
+- Holy Symbol: Pendant with Saint Terragnix' crest on a chain around my neck
+** Coins: 21 gp, 7 sp, 0 cp
+** Transactions:
+- Found 5g on dead fighter
+- Found 2g, garlic on dead wizard.
+
+
+* Talents:
+** Weapons: Club, crossbow, dagger, mace, longsword, staff, warhammer
+** Armor: All armor and shields
+** Languages: Common, Celestial
+** Halfling Stealthy: Once per day, you can become invisible for 3 rounds.
+** Priest Turn Undead: You know the /turn undead/ spell. It doesn't count toward your number of spells.
+** Priest Spelcasting: You can cast priest spells you know.
+*** You know two tier 1 spells of your choice from the priest spell list
+*** Each time you gain a level, you choose a new priest spell to learn according to the prist spells known table.
+** Priest Deity
+Choose a god to serve who matches your alignment. You have a holy symbol of your
+got (it takes up no gear slots).
+** Priest Class Talent Table:
+|   2d6 | Effect                                              |
+|-------+-----------------------------------------------------|
+|     2 | Gain advantage on casting one spell you know        |
+|   3-6 | +1 to melee or ranged attacks                       |
+|   7-9 | +1 to priest spellcasting checks                    |
+| 10-11 | +2 to Strength or Wisdom stat                       |
+|    12 | Choose a talent or +2 points to distribute to stats |
+
+** Priest-1: +1 to priest spellcasting checks
+
+
+* History/Notes
+** Roscoe the arcane trickster
+https://www.worldanvil.com/hero/f6053b53-46ac-4e27-8d77-1d13bd3be470
+[[./Roscoe.jpg]]
