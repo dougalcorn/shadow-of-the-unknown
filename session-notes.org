@@ -46,7 +46,8 @@ their stronghold. You seem to have found something...
 - A gust of wind blows through the room, from the one open door to the other.
   Adel failed a DEX check and the torch goes out. **We are in darkness**
 - Mubslai pulls out a daggar, but fails his light spell
-- **(current turn)** Bragi attempts to light a torch from his bag
+- Bragi fails to light a torch from his bag
+- **(current turn)** Nires
 * Round 23:
 - Torch timer: 6 (Adel is holding it)
 - Adel strips the **chainmail armor** off the fourth body
