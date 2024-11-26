@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-11-26 Tue 14:42 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Shadow of the Unknown</title>
+<meta name="author" content="Doug Alcorn" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Shadow of the Unknown</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org61af0a5">1. Background</a></li>
+<li><a href="#orgcb7b80a">2. Party Turn Order:</a></li>
+<li><a href="#orgc6dcf68">3. Group Inventory Spreadsheet</a></li>
+<li><a href="#org4442d6d">4. Current Map:</a></li>
+<li><a href="#org8518939">5. Current Round 24:</a></li>
+<li><a href="#org34f06c5">6. Round 23:</a></li>
+<li><a href="#orga8bb459">7. Round 22</a></li>
+<li><a href="#org5511d30">8. Round 21</a></li>
+<li><a href="#org17e7e3a">9. Round 20</a>
+<ul>
+<li><a href="#orgd5abb82">9.1. Combat Round 20.1</a></li>
+<li><a href="#org42b28b1">9.2. Combat Round 20.2</a></li>
+<li><a href="#org5f898df">9.3. Combat Round 20.3</a></li>
+<li><a href="#orga4e9f0c">9.4. Combat Round 20.4</a></li>
+</ul>
+</li>
+<li><a href="#org5599047">10. Round 19</a></li>
+<li><a href="#org1df34db">11. Round 18</a></li>
+<li><a href="#org4d3e24f">12. Round 17</a></li>
+<li><a href="#orge8a4aa4">13. Round 16</a></li>
+<li><a href="#orgadf73d9">14. Round 15</a></li>
+<li><a href="#org0332b6a">15. Round 14</a></li>
+<li><a href="#orgb147cdf">16. Round 13</a></li>
+<li><a href="#org026db6e">17. Round 12</a></li>
+<li><a href="#orgbbcaf02">18. Round 11</a></li>
+<li><a href="#orgecb73ae">19. Round 10: Zelligar&rsquo;s Bedroom (Room 4)</a></li>
+<li><a href="#orgc0d41ca">20. Round 9</a></li>
+<li><a href="#orga2ef77f">21. Round 8</a></li>
+<li><a href="#orgf514e1c">22. Round 7</a></li>
+<li><a href="#org583a41f">23. Round 6:</a>
+<ul>
+<li><a href="#orgca69715">23.1. Combat Round 6.1:</a></li>
+<li><a href="#orge4614be">23.2. Combat Round 6.2:</a></li>
+</ul>
+</li>
+<li><a href="#orga8a0e44">24. Round 5: Throne room, Room 3</a></li>
+<li><a href="#orgbafef87">25. Round 4: Entry Hall, Room 2</a></li>
+<li><a href="#org94de4f5">26. Round 3</a></li>
+<li><a href="#orgc0f8400">27. Round 2: Hallway, Room 1</a></li>
+<li><a href="#org437db98">28. Round 1:</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org61af0a5" class="outline-2">
+<h2 id="org61af0a5"><span class="section-number-2">1.</span> Background</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Word has recently reached your area that two of the area&rsquo;s adventurers, the
+Warlord Rogahn the Fearless, and the Sorcerer Zelligar the Unknown, have been
+killed while on campaign in a distant land, fighting barbarian hordes. They left
+on their campaign several years ago, but news of their death has only just
+filtered back to this area.
+</p>
+
+<p>
+These adventurers gained their reputation by repelling a barbarian invasion of
+these lands many years ago. Rogahn slew a horde singlehandedly, and Zelligar&rsquo;s
+magic put the army to flight.
+</p>
+
+<p>
+The other thing that they are known for is for having invested most of their
+treasure into their stronghold, a hidden complex, far from any well-travelled
+route.
+</p>
+
+<p>
+With the news of their death, people began combing the countryside for signs of
+their stronghold. You seem to have found something&#x2026;
+</p>
+</div>
+</div>
+<div id="outline-container-orgcb7b80a" class="outline-2">
+<h2 id="orgcb7b80a"><span class="section-number-2">2.</span> Party Turn Order:</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li><a href="Adel.pdf">Adel</a> (also <a href="adel.html">here</a>), Hafling Priest (supercorn)</li>
+<li>GM (Dr Pete)</li>
+<li><a href="Mubslai.pdf">Mubslai</a>, Goblin Wizard (Mubslai)</li>
+<li><a href="Bragi.pdf">Bragi</a>,  Human Fighter (Bragi)</li>
+<li><a href="Nires.pdf">Nires</a>, Elf Fighter (John Watson)</li>
+<li><a href="Bruhg.pdf">Brugh</a>, Human Fighter (Brugh (Mylon))</li>
+<li><a href="Finol.pdf">Finol</a>, Half-Elven Theif (Peti29)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc6dcf68" class="outline-2">
+<h2 id="orgc6dcf68"><span class="section-number-2">3.</span> Group Inventory <a href="https://docs.google.com/spreadsheets/d/1wKGWP43huwiTCq3OrRoo73uzoHA-rAxT_cWQCOraz-A/edit?usp=sharing">Spreadsheet</a></h2>
+</div>
+<div id="outline-container-org4442d6d" class="outline-2">
+<h2 id="org4442d6d"><span class="section-number-2">4.</span> Current Map:</h2>
+<div class="outline-text-2" id="text-4">
+
+<div id="orga98a167" class="figure">
+<p><img src="./images/IMG_2384.jpg" alt="IMG_2384.jpg" width="300px" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8518939" class="outline-2">
+<h2 id="org8518939"><span class="section-number-2">5.</span> Current Round 24:</h2>
+<div class="outline-text-2" id="text-5">
+<ul class="org-ul">
+<li>Torch timer: 5 (Adel is holding it)</li>
+<li>Adel finishes putting on chainmail armor, drops leather armor and garlic he
+picked up</li>
+<li>A gust of wind blows through the room, from the one open door to the other.
+Adel failed a DEX check and the torch goes out. <b><b>We are in darkness</b></b></li>
+<li>Mubslai pulls out a daggar, but fails his light spell</li>
+<li>Bragi lights a torch from his bag</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org34f06c5" class="outline-2">
+<h2 id="org34f06c5"><span class="section-number-2">6.</span> Round 23:</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>Torch timer: 6 (Adel is holding it)</li>
+<li>Adel strips the <b><b>chainmail armor</b></b> off the fourth body</li>
+<li>Mubslai waits for the party to ready</li>
+<li>Bragi waits for the party</li>
+<li>Nires swaps his bow for a spear. Opens the doorway to the hall a crack and listens</li>
+<li>Brugh finishes putting on the chainmail and takes the silver comb from Finol</li>
+<li>Finol opens the door the orcs came through</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga8bb459" class="outline-2">
+<h2 id="orga8bb459"><span class="section-number-2">7.</span> Round 22</h2>
+<div class="outline-text-2" id="text-7">
+<ul class="org-ul">
+<li>Torch timer: 7 (Adel)</li>
+<li>Adel heals Brugh</li>
+<li>Mubslai opens the door the Orcs came out of, but it&rsquo;s locked</li>
+<li>Bragi heads over to the door with Mubslai and puts on the armor he looted</li>
+<li>Nires puts on the armor he looted</li>
+<li>Brugh strips <b><b>chainmail</b></b> off an orc</li>
+<li>Finol searches the door thoroughly and finds nothing</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5511d30" class="outline-2">
+<h2 id="org5511d30"><span class="section-number-2">8.</span> Round 21</h2>
+<div class="outline-text-2" id="text-8">
+<ul class="org-ul">
+<li>Torch timer: 8 (Adel)</li>
+<li>Adel revives Brugh with Cure Wounds</li>
+<li>Bragi strips <b><b>chainmail armor</b></b> off the Orc leader and a <b><b>45 gp silver mirror (1 XP)</b></b></li>
+<li>Nires strips off <b><b>chainmail armor</b></b> from a dead Orc and <b><b>2 perfume
+bottles</b></b>. Swaps training shield for an Orc&rsquo;s <b><b>shield</b></b></li>
+<li>Brugh closes all the doors</li>
+<li>Finol searches the remaining orc and finds a <b><b>silver-plated comb</b></b></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org17e7e3a" class="outline-2">
+<h2 id="org17e7e3a"><span class="section-number-2">9.</span> Round 20</h2>
+<div class="outline-text-2" id="text-9">
+<ul class="org-ul">
+<li>Torch timer: 9 (Finol)</li>
+<li>Adel leaves the bedroom and re-enters the hallway</li>
+<li>Orcs (1 leader 3 others) come out from an (un-searched) tapestry</li>
+<li>Some back and forth dialog with the Orcs telling us to give them our treasure</li>
+</ul>
+</div>
+<div id="outline-container-orgd5abb82" class="outline-3">
+<h3 id="orgd5abb82"><span class="section-number-3">9.1.</span> Combat Round 20.1</h3>
+<div class="outline-text-3" id="text-9-1">
+<ul class="org-ul">
+<li>Brugh attacks and misses the Orc leader</li>
+<li>Finol tries and fails to hide</li>
+<li>Adel steps just inside the doorway and fires and misses the Orc leader</li>
+<li>Orc leader misses Brugh</li>
+<li>Orc 2 misses Brugh</li>
+<li>Orc 3 knocks Finol out, but the torch doesn&rsquo;t go out</li>
+<li>Orc 4 misses Adel</li>
+<li>Mubslai splashes acid on Orc 4 but misses</li>
+<li>Bragi kills Orc 3</li>
+<li>Nires shoots the Orc leader with an arrow</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org42b28b1" class="outline-3">
+<h3 id="org42b28b1"><span class="section-number-3">9.2.</span> Combat Round 20.2</h3>
+<div class="outline-text-3" id="text-9-2">
+<ul class="org-ul">
+<li>Brugh misses Orc leader</li>
+<li>Finol has 1 round left to live</li>
+<li>Adel moves close to Finol and cast Cure Wounds reviving Finol with a bit of luck
+<ul class="org-ul">
+<li>Picks up the torch</li>
+</ul></li>
+<li>Orc leader rages and attacks Brugh and misses</li>
+<li>Orc 2 attacks Bragi and knocks him out</li>
+<li>Orc 4 knocks Mubslai down</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5f898df" class="outline-3">
+<h3 id="org5f898df"><span class="section-number-3">9.3.</span> Combat Round 20.3</h3>
+<div class="outline-text-3" id="text-9-3">
+<ul class="org-ul">
+<li>Brugh attacks an orc and misses</li>
+<li>Finol tries to stabalize Mubslai, but fails</li>
+<li>Adel moves over to Mubslai and casts Cure Wounds reviving Mubslai</li>
+<li>Orc leader misses Nires</li>
+<li>Orc misses Finol</li>
+<li>Orc hits and almost knocks Brugh out</li>
+<li>Mubslai double crits with Magic Missle and kills one of the Orcs</li>
+<li>Nires moves away from Orc and kills the Orc with an arrow</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga4e9f0c" class="outline-3">
+<h3 id="orga4e9f0c"><span class="section-number-3">9.4.</span> Combat Round 20.4</h3>
+<div class="outline-text-3" id="text-9-4">
+<ul class="org-ul">
+<li>Brugh misses the remaining Orc</li>
+<li>Finol shoots the Orc leader with a shortbow</li>
+<li>Adel moves over to Bragi and revives him with Cure Wounds</li>
+<li>Orc leader knocks Brugh down</li>
+<li>Mubslai kills the remaining Orc leader with Magic Missle</li>
+<li>Bragi tries to stablize Brugh but fails</li>
+<li>Nires manages to stabalize Brugh</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org5599047" class="outline-2">
+<h2 id="org5599047"><span class="section-number-2">10.</span> Round 19</h2>
+<div class="outline-text-2" id="text-10">
+<ul class="org-ul">
+<li>Torch timer: 10 (Finol)</li>
+<li>Adel casts light and fails. Waits outside the bedroom</li>
+<li>Mubslai checks out the gem Brugh found. It&rsquo;s not enchanted, but it has been
+&ldquo;tainted&rdquo; by a dragon&rsquo;s hoard. It &ldquo;wants&rdquo; to return to the dragon&rsquo;s hoard.</li>
+<li>Bragi tries and fails to open the secret door. Joins Adel and waits</li>
+<li>Nires kicks the secret door open and it loudly bangs into the wall in the
+throne room</li>
+<li>Brugh moves towards the door to leave the bedroom</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1df34db" class="outline-2">
+<h2 id="org1df34db"><span class="section-number-2">11.</span> Round 18</h2>
+<div class="outline-text-2" id="text-11">
+<ul class="org-ul">
+<li>Torch timer: 2 (Nires and Bragi)</li>
+<li>Adel waits for Finol and Nires to catch up</li>
+<li>Bragi moves out of the bedroom into the hall</li>
+<li>Nires rejoins the others</li>
+<li>Brugh lights a torch and then examines the new secret door</li>
+<li>Finol catches up to the group, takes Brugh&rsquo;s torch and checks for traps</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4d3e24f" class="outline-2">
+<h2 id="org4d3e24f"><span class="section-number-2">12.</span> Round 17</h2>
+<div class="outline-text-2" id="text-12">
+<ul class="org-ul">
+<li>Torch timer: 3 (Nires and Bragi)</li>
+<li><a href="https://cdn.discordapp.com/attachments/1299344192472088586/1304866302212444251/IMG_2384.jpg?ex=6746b3b1&amp;is=67456231&amp;hm=9218045443cfbd6ca655ad530c9d8750b1af146d7357e76803f5812979b01029&amp;">map</a></li>
+<li>Adel searches the armoire and finds nothing of value</li>
+<li>Mubslai finds a secret door behind one of the tapestries</li>
+<li>Bragi finds a <b><b>wooden box with a dragon on it and a big green gem (1 XP)</b></b></li>
+<li>Nires keeps one of the <b><b>training shields</b></b> from the gym and <b><b>20 usable
+arrows</b></b> and heads back towards the rest of the party</li>
+<li>Brugh searches behind another tapestry and finds an empty armor rack</li>
+<li>Finol follows Nires to catch up with the group</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge8a4aa4" class="outline-2">
+<h2 id="orge8a4aa4"><span class="section-number-2">13.</span> Round 16</h2>
+<div class="outline-text-2" id="text-13">
+<ul class="org-ul">
+<li>Torch timer: 4 (Nires and Bragi)</li>
+<li>Adel searches the alcove and finds a (stuck) secret door (Room 5)</li>
+<li>Mubslai tries to disolve the spider webs with acid. It works, but would take a
+long time to clear it all
+<ul class="org-ul">
+<li>Mage Armor: 1</li>
+</ul></li>
+<li>Bragi examines the secret door</li>
+<li>Nires opens a doorway near the webs and finds a gym (Room 6)</li>
+<li>Brugh forces the door in the alcove to reveal Rogahn&rsquo;s Bedroom</li>
+<li>Finol loots a few arrows from the gym</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgadf73d9" class="outline-2">
+<h2 id="orgadf73d9"><span class="section-number-2">14.</span> Round 15</h2>
+<div class="outline-text-2" id="text-14">
+<ul class="org-ul">
+<li>Torch timer: 5 (Nires and Bragi)</li>
+<li>Adel sneaks down the other hallway away from the stink and finds an alcove</li>
+<li>Mubslai catches up to the intersection</li>
+<li>Bragi follows Adel to reveal more of the hallway</li>
+<li>Nires double-moves out to the intersection and follows group towards stinky hall</li>
+<li>Brugh double-moves to the alcove with Bragi and Adel</li>
+<li>Finol sneaks down the stinky hallway and finds heavy spider webs</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0332b6a" class="outline-2">
+<h2 id="org0332b6a"><span class="section-number-2">15.</span> Round 14</h2>
+<div class="outline-text-2" id="text-15">
+<ul class="org-ul">
+<li>Torch timer: 5 (Nires and Bragi)</li>
+<li>Adel waits in the bedroom</li>
+<li>Mubslai waits in the bedroom
+<ul class="org-ul">
+<li>Mage Armor: 3</li>
+</ul></li>
+<li>Bragi leaves the bedroom and enters the outside hall. Hand returns to normal</li>
+<li>Nires tries to figure out the treasure illusion and it just disappears. Grabs the iron spike</li>
+<li>Brugh takes iron spike from Nires. Scouts head and finds stinky hallway</li>
+<li>Finol sneaks as far down the stinky hall as he can with the light</li>
+<li><a href="https://cdn.discordapp.com/attachments/1299344192472088586/1303754855852015666/IMG_2370.jpg?ex=674745d4&amp;is=6745f454&amp;hm=9f73a9081cca8d840d7a2bf5f6e86f0d18c29aec320f5a5a0d77250aa909ff2f&amp;">map</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb147cdf" class="outline-2">
+<h2 id="orgb147cdf"><span class="section-number-2">16.</span> Round 13</h2>
+<div class="outline-text-2" id="text-16">
+<ul class="org-ul">
+<li>Torch timer: 7 (sconce and Bragi)</li>
+<li>Adel searches the closet</li>
+<li>Mubslai enters the closet and searches through the papers
+<ul class="org-ul">
+<li>Mage Armor: 4</li>
+</ul></li>
+<li>Bragi also searches the closet</li>
+<li>Nires opens the other door, takes the torch from the sconce and sees (fake) treasure</li>
+<li>Brugh tosses an iron spike at the treasure</li>
+<li>Finol checks for traps on the remaining door</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org026db6e" class="outline-2">
+<h2 id="org026db6e"><span class="section-number-2">17.</span> Round 12</h2>
+<div class="outline-text-2" id="text-17">
+<ul class="org-ul">
+<li>Torch timer: 8 (sconce and Bragi)</li>
+<li>Adel examines Bragi&rsquo;s hand and searches the room</li>
+<li>Mubslai picks up the <b><b>black bone</b></b>
+<ul class="org-ul">
+<li>when held touching one of the etchings, the bone will slowly fill up with
+acid. This acid can be flung at &ldquo;nearby&rdquo; opponents for 1d6 damage.</li>
+<li>You can invoke the power once to shoot a more powerful bolt of acid which
+shoots further and lasts longer. Doing this will deplete the item of its
+magic.</li>
+<li>The magic is diabolical in nature, and the bearer of the bone is vulnerable
+to silver weapons.</li>
+<li>Mage Armor: 5</li>
+</ul></li>
+<li>Bragi attempts to open one of the (locked) doors</li>
+<li>Brugh forces open a closet/office, finds a <b><b>lantern (without oil)</b></b></li>
+<li>Finol further searches the bedroom</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbbcaf02" class="outline-2">
+<h2 id="orgbbcaf02"><span class="section-number-2">18.</span> Round 11</h2>
+<div class="outline-text-2" id="text-18">
+<ul class="org-ul">
+<li>Torch timer: 9 (Nires and Bragi)</li>
+<li>Adel moves into the room and inspects the carvings on the wall</li>
+<li>Mubslai tries to find the source of the chanting, but it seems to have stopped</li>
+<li>Bragi searches around the bed and nightstand. He opens the drawer on the
+nightstand and is poisoned by a needle trap! His hand is numb and unusable</li>
+<li>Nires puts his torch in a sconce and searches the room, but finds nothing</li>
+<li>Brugh find <b><b>black bone</b></b> in the drawer</li>
+<li>Finol closes the door and examines the black bone and the trap in the drawer</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgecb73ae" class="outline-2">
+<h2 id="orgecb73ae"><span class="section-number-2">19.</span> Round 10: Zelligar&rsquo;s Bedroom (Room 4)</h2>
+<div class="outline-text-2" id="text-19">
+<ul class="org-ul">
+<li>Torch timer: 10 (Nires)</li>
+<li>Adel casts light on Bragi&rsquo;s shield. Catches up with Mubslai and Nires</li>
+<li>Mubslai hears diabolic singing and waits</li>
+<li>Bragi double-moves up to the doors</li>
+<li>Nires checks for traps and opens the door to reveal a bedroom</li>
+<li>Bragi enters the room, can&rsquo;t find source of chanting</li>
+<li>Finol double-moves to catch up to the group without entering the room</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc0d41ca" class="outline-2">
+<h2 id="orgc0d41ca"><span class="section-number-2">20.</span> Round 9</h2>
+<div class="outline-text-2" id="text-20">
+<ul class="org-ul">
+<li>Torch timer: 2 (Mubslai and Brugh)</li>
+<li>Adel follows Nires</li>
+<li>Mubslai moves further down the hallway with Nires
+<ul class="org-ul">
+<li>Mage Armor: 7</li>
+</ul></li>
+<li>Bragi moves up with Nires</li>
+<li>Nires lights a new torch and move down the hallway</li>
+<li>Brugh hands his sputtering torch to Finol and double-moves to the rest of the
+party</li>
+<li>Finol follows the group and his torch goes out</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga2ef77f" class="outline-2">
+<h2 id="orga2ef77f"><span class="section-number-2">21.</span> Round 8</h2>
+<div class="outline-text-2" id="text-21">
+<ul class="org-ul">
+<li>Torch timer: 3 (Mubslai and Brugh)</li>
+<li>Adel checks for traps on second trap door and waits for Finol</li>
+<li>Mubslai takes second gem from Finol and waits
+<ul class="org-ul">
+<li>Mage Armor: 8</li>
+</ul></li>
+<li>Bragi moves to throne and waits</li>
+<li>Nires listens and pushes open the first secret door to reveal a hallway. He
+moves down the hallway with spear as far as light allows
+<ul class="org-ul">
+<li>hears singing/chanting in the distance</li>
+</ul></li>
+<li>Brugh moves up to the throne with light</li>
+<li>Finol pops the third <b><b>50g gem</b></b></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf514e1c" class="outline-2">
+<h2 id="orgf514e1c"><span class="section-number-2">22.</span> Round 7</h2>
+<div class="outline-text-2" id="text-22">
+<ul class="org-ul">
+<li>Torch timer: 4 (Mubslai and Brugh)</li>
+<li>Adel finds a second secret door behind curtains</li>
+<li>Mubslai waits to loot the other gems
+<ul class="org-ul">
+<li>Mage Armor timer: 9</li>
+</ul></li>
+<li>Bragi stands guard</li>
+<li>Nires waits for Finol to loot gems</li>
+<li>Brugh moves to back of throne room and waits</li>
+<li>Finol pops another <b><b>50gp gem</b></b></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org583a41f" class="outline-2">
+<h2 id="org583a41f"><span class="section-number-2">23.</span> Round 6:</h2>
+<div class="outline-text-2" id="text-23">
+<ul class="org-ul">
+<li>Torch timer: 5 (Finol and Brugh are holding)</li>
+<li>Finol gets spooked, gives torch to Mubslai, hides</li>
+<li>Adel hides</li>
+<li>Swarm of several large rats coming out in the entry hall</li>
+<li>Brugh rushes into the throne room and closes the door</li>
+</ul>
+</div>
+<div id="outline-container-orgca69715" class="outline-3">
+<h3 id="orgca69715"><span class="section-number-3">23.1.</span> Combat Round 6.1:</h3>
+<div class="outline-text-3" id="text-23-1">
+<ul class="org-ul">
+<li>One rat gets into the throne room</li>
+<li>Finol shots the rat with his bow</li>
+<li>Adel fires crossbow to kill the rat and reloads</li>
+<li>Mubslai casts Mage Armor</li>
+<li>Bragi moves up to the doors</li>
+<li>Niles equips longbow, ready for attack</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge4614be" class="outline-3">
+<h3 id="orge4614be"><span class="section-number-3">23.2.</span> Combat Round 6.2:</h3>
+<div class="outline-text-3" id="text-23-2">
+<ul class="org-ul">
+<li>Brugh fits iron spike to wedge the door</li>
+<li>Finol recovers a gem from the throne, <b><b>50gp gem, 1 XP</b></b></li>
+<li>Nires finds a secret door behind the curtains</li>
+<li>Adel searches behind curtains</li>
+<li>Rat sneaks in and bites Bragi</li>
+<li>Mubslai Magic Missles a Rat</li>
+<li>Bragi kills the rat with a axe</li>
+<li>Rats seemed to have left on the other side of the door</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orga8a0e44" class="outline-2">
+<h2 id="orga8a0e44"><span class="section-number-2">24.</span> Round 5: Throne room, Room 3</h2>
+<div class="outline-text-2" id="text-24">
+<ul class="org-ul">
+<li>Torch timer: 6 (Finol, and Brugh are holding one)</li>
+<li><a href="https://cdn.discordapp.com/attachments/1299344192472088586/1301222668586192988/IMG_2322.jpg?ex=67474a0b&amp;is=6745f88b&amp;hm=bf9accde55a605fe338e73f35f3f1d4e6dbddfe9769bc7e8c0ecc725bf47f49e&amp;">map</a></li>
+<li>Finol steps into the &ldquo;ballroom&rdquo; and approaches the &ldquo;altar&rdquo;</li>
+<li>It&rsquo;s actually a throne room and these are thrones</li>
+<li>Adel moves into the room</li>
+<li>Mubslai moves up to the thrones
+<ul class="org-ul">
+<li>Sees 4 unbroken, large gems on the thrones</li>
+<li>breaks one of the gems with a crowbar</li>
+</ul></li>
+<li>Bragi examines the curtains at the back of the room</li>
+<li>Finol double-moves towards the back of the room</li>
+<li>Brugh double-moves into the throne room</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbafef87" class="outline-2">
+<h2 id="orgbafef87"><span class="section-number-2">25.</span> Round 4: Entry Hall, Room 2</h2>
+<div class="outline-text-2" id="text-25">
+<ul class="org-ul">
+<li>Torch timer: 7 (Finol is holding it)</li>
+<li>Finol searches big door for traps and listens, but finds nothing</li>
+<li>Adel searches the wizard&rsquo;s corpse, <b><b>finds 2gp and garlic</b></b></li>
+<li>Mubslai returns to the group and opens the big door to reveal a ball room.
+Moves into the room.</li>
+<li>Bragi moves into the ballroom</li>
+<li>Nires moves up and stays just outside the ballroom</li>
+<li>Brugh (lights torch) double-moves to catch up (in the hallway outside the entry room)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org94de4f5" class="outline-2">
+<h2 id="org94de4f5"><span class="section-number-2">26.</span> Round 3</h2>
+<div class="outline-text-2" id="text-26">
+<ul class="org-ul">
+<li>Torch timer: 8 (Finol is holding it)</li>
+<li>We see the room of bodies, Finol waits at the entrance</li>
+<li>Adel moves into the room and searches the Fighter, <b><b>finds 5gp</b></b></li>
+<li>Mubslai moves up and searches dwarf corpse in the hall, finds nothing</li>
+<li>Bragi searches an orc, <b><b>finds daggar</b></b></li>
+<li>Nires guards</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc0f8400" class="outline-2">
+<h2 id="orgc0f8400"><span class="section-number-2">27.</span> Round 2: Hallway, Room 1</h2>
+<div class="outline-text-2" id="text-27">
+<ul class="org-ul">
+<li>Torch timer: 9 (Adel is holding it)</li>
+<li>Finol moves forward to second alcoves</li>
+<li>Adel follows</li>
+<li>Bragi follows</li>
+<li>Moves to end of hall. Room ahead with bloody battle</li>
+<li>Magic Mouths:
+<ul class="org-ul">
+<li>&ldquo;Who dares enter this place and intrude on the santuary of its inhabitants?&rdquo;</li>
+<li>&ldquo;Only a group of foolhardy explorers doomed to certain death!&rdquo;</li>
+<li>&ldquo;Woe to any who pass this place - the wrath of Zelligar and Rogahn will be
+upon them!&rdquo;</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org437db98" class="outline-2">
+<h2 id="org437db98"><span class="section-number-2">28.</span> Round 1:</h2>
+<div class="outline-text-2" id="text-28">
+<ul class="org-ul">
+<li>Torch Timer: 10 (Adel is holding a torch with a light spell on it)</li>
+<li>Finol searches the door for traps and finds none. Opens the door and enters
+the hallway</li>
+<li>Adel follows Finol into the tunnel</li>
+<li>Mubslai follows into the tunnel</li>
+<li>Bragi enters the tunnel and takes the lead position</li>
+<li>Nires catches up and joins in the tunnel</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Doug Alcorn</p>
+<p class="date">Created: 2024-11-26 Tue 14:42</p>
+</div>
+</body>
+</html>

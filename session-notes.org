@@ -19,16 +19,18 @@ With the news of their death, people began combing the countryside for signs of
 their stronghold. You seem to have found something...
 
 * Party Turn Order:
-- Adel, Hafling Priest (supercorn)
+- [[file:Adel.pdf][Adel]] (also [[file:adel.org][here]]), Hafling Priest (supercorn)
 - GM (Dr Pete)
-- Mubslai, Goblin Wizard (Mubslai)
-- Bragi,  Human Fighter (Bragi)
-- Nires, Elf Fighter (John Watson)
-- Brugh, Human Fighter (Brugh (Mylon))
-- Finol, Half-Elven Theif (Peti29)
+- [[file:Mubslai.pdf][Mubslai]], Goblin Wizard (Mubslai)
+- [[file:Bragi.pdf][Bragi]],  Human Fighter (Bragi)
+- [[file:Nires.pdf][Nires]], Elf Fighter (John Watson)
+- [[file:Bruhg.pdf][Brugh]], Human Fighter (Brugh (Mylon))
+- [[file:Finol.pdf][Finol]], Half-Elven Theif (Peti29)
 
 * Group Inventory [[https://docs.google.com/spreadsheets/d/1wKGWP43huwiTCq3OrRoo73uzoHA-rAxT_cWQCOraz-A/edit?usp=sharing][Spreadsheet]]
-* Current Map: [[https://cdn.discordapp.com/attachments/1299344192472088586/1304866302212444251/IMG_2384.jpg?ex=6746b3b1&is=67456231&hm=9218045443cfbd6ca655ad530c9d8750b1af146d7357e76803f5812979b01029&][here]]
+* Current Map:
+#+ATTR_HTML: :width 300px
+[[./images/IMG_2384.jpg]]
 
 * Current Round 24:
 - Torch timer: 5 (Adel is holding it)
@@ -166,39 +168,6 @@ their stronghold. You seem to have found something...
 - Nires opens the other door, takes the torch from the sconce and sees (fake) treasure
 - Brugh tosses an iron spike at the treasure
 - Finol checks for traps on the remaining door
-#+begin_quote
-+--------------------------------------------+
-|         ##########Carving#########         |
-|                                            |
-|                                            |
-|+--+----------+                       +----+|
-||  |          |                       |    ||
-||  |  BED     |                       |    ||
-||  |          |                       |    ||
-||  |          |                       +----+|
-|+--+----------+                             >?
-|                                            >?
-|                                            >?
-|                                            |
-+-----vvvvv-----+--^^^^^^--+----vvvvv--------+
-   +----------+ |          | +---------------+
-   |          | |          | |     Closet    |
-   |          | |          | |               |
-   |          | |          | |    +------+   |
-   |          | |          | |    |      |   |
-   |          | |          | |    |      |   |
-   |          | |          | |    |      |   |
-   |          | |          | |    +------+   |
-   |          | |          | |               |
-   |          | |          | |               |
-   |          | |          | +---------------+
-   |          | |          |
-   |          | |          |
-   |  ******  | |          |
-   |  ******  |
-   |  ******  |
-   +----------+
-#+end_quote
 * Round 12
 - Torch timer: 8 (sconce and Bragi)
 - Adel examines Bragi's hand and searches the room
