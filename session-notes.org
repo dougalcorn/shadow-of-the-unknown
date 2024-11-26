@@ -1,4 +1,5 @@
 #+title: Shadow of the Unknown
+#+OPTIONS: num:nil
 
 * Background
 Word has recently reached your area that two of the area's adventurers, the
@@ -28,6 +29,10 @@ their stronghold. You seem to have found something...
 - [[file:Finol.pdf][Finol]], Half-Elven Theif (Peti29)
 
 * Group Inventory [[https://docs.google.com/spreadsheets/d/1wKGWP43huwiTCq3OrRoo73uzoHA-rAxT_cWQCOraz-A/edit?usp=sharing][Spreadsheet]]
+* Open Threads:
+- Had previously heard diabolic chanting while near Zelligar's bedroom
+- Orcs killed had perfume and silver mirror and comb. That's weird
+
 * Current Map:
 #+ATTR_HTML: :width 300px
 [[./images/IMG_2384.jpg]]
