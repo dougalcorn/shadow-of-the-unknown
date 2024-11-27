@@ -27,13 +27,19 @@ their stronghold. You seem to have found something...
 ** Group Inventory [[https://docs.google.com/spreadsheets/d/1wKGWP43huwiTCq3OrRoo73uzoHA-rAxT_cWQCOraz-A/edit?usp=sharing][Spreadsheet]]
 
 ** Turn Order
-- [[file:Adel.pdf][Adel]] (also [[file:adel.org][here]]), Hafling Priest (supercorn)
+- [[file:Adel.pdf][Adel]], Hafling Priest (supercorn)
+  - **AC:** 14 **HP:** 4 **S:** -2 **D:** +2 **C:** -2 **I:** -1 **W:** +3 **Ch:** +2
 - GM (Dr Pete)
 - [[file:Mubslai.pdf][Mubslai]], Goblin Wizard (Mubslai)
+  - **AC:** 11 **HP:** 1 **S:** +1 **D:** +2 **C:** -1 **I:** +4 **W:** +0 **Ch:** +3
 - [[file:Bragi.pdf][Bragi]],  Human Fighter (Bragi)
+  - **AC:** 18 **HP:** 7 **S:** +2 **D:** +1 **C:** +3 **I:** -1 **W:** +0 **Ch:** -2
 - [[file:Nires.pdf][Nires]], Elf Fighter (John Watson)
+  - **AC:** 17 **HP:** 6 **S:** +3 **D:** +2 **C:** -2 **I:** +1 **W:** +2 **Ch:** -3
 - [[file:Bruhg.pdf][Brugh]], Human Fighter (Brugh (Mylon))
+  - **AC:** 17 **HP:** 7 **S:** +1 **D:** +1 **C:** +0 **I:** -1 **W:** +0 **Ch:** +3
 - [[file:Finol.pdf][Finol]], Half-Elven Theif (Peti29)
+  - **AC:** 13 **HP:** 2 **S:** -1 **D:** +2 **C:** -2 **I:** +0 **W:** +0 **Ch:** -2
 
 ** Open Threads
 - Had previously heard diabolic chanting while near Zelligar's bedroom

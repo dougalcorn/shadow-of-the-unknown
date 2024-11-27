@@ -38,9 +38,9 @@ godhood long ago and is the embodiment of righteousness and justice.
 * Luck: 1
 - for lighting up the first "torch" :-)
 
-* AC: 13
+* AC: 14
 - 10 + 2 DEX modifier
-- Leather armor +1 AC
+- Chainmail "light" armor +2 AC
 
 
 * Attacks:
