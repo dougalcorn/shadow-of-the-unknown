@@ -1,7 +1,7 @@
 #+title: Shadow of the Unknown
 #+OPTIONS: num:nil toc:nil
 #+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/raw/master/src/solarized_dark/solarized_dark.theme
-
+#+HTML_HEAD: <style> .dka-column {float: left; width: 50%;} </style>
 
 * Background
 Word has recently reached your area that two of the area's adventurers, the
@@ -21,7 +21,13 @@ route.
 With the news of their death, people began combing the countryside for signs of
 their stronghold. You seem to have found something...
 
-* Party Turn Order:
+* Current Status
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: dka-column
+:END:
+** Group Inventory [[https://docs.google.com/spreadsheets/d/1wKGWP43huwiTCq3OrRoo73uzoHA-rAxT_cWQCOraz-A/edit?usp=sharing][Spreadsheet]]
+
+** Turn Order
 - [[file:Adel.pdf][Adel]] (also [[file:adel.org][here]]), Hafling Priest (supercorn)
 - GM (Dr Pete)
 - [[file:Mubslai.pdf][Mubslai]], Goblin Wizard (Mubslai)
@@ -30,23 +36,26 @@ their stronghold. You seem to have found something...
 - [[file:Bruhg.pdf][Brugh]], Human Fighter (Brugh (Mylon))
 - [[file:Finol.pdf][Finol]], Half-Elven Theif (Peti29)
 
-* Group Inventory [[https://docs.google.com/spreadsheets/d/1wKGWP43huwiTCq3OrRoo73uzoHA-rAxT_cWQCOraz-A/edit?usp=sharing][Spreadsheet]]
-
-* Open Threads:
+** Open Threads
 - Had previously heard diabolic chanting while near Zelligar's bedroom
 - Orcs killed had perfume and silver mirror and comb. That's weird
 
-* Current Map:
-#+ATTR_HTML: :width 300px
-[[./images/IMG_2384.jpg]]
 
-
-* Current State
+** Notes
 - Everyone is in Rogahn's Bedroom
 - Bragi and Brugh are still fairly wounded
 - Finol opens the secret door the Orcs came through
 - The door out to the hallway is cracked open by Nires
 - Nires just lit a torch
+
+
+* Current Map:
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: dka-column
+:END:
+#+ATTR_HTML: :width 300px
+[[./images/IMG_2384.jpg]]
+
 
 
 * Current Round 24:
