@@ -49,7 +49,11 @@ their stronghold. You seem to have found something...
 ** Notes
 - Everyone is split between Rogahn's Bedroom (Room 5) and the secret alcove the
   Orcs came through
-- Bragi and Brugh are still fairly wounded
+- Trashed bedroom to examine:
+  - Water basin
+  - Mirror
+  - +Nighstand: nothing+
+- Brugh is still fairly wounded
 - Finol opens the secret door the Orcs came through
 - The door out to the hallway is cracked open by Nires
 - Nires just lit a torch
@@ -57,14 +61,17 @@ their stronghold. You seem to have found something...
 
 * Current Round 25:
 - Torch timer: 10 (Adel)
-- Adel finishes putting on his chainmail (again?) accepts the torch
+- +Adel finishes putting on his chainmail (again?) accepts the torch+
+- Adel cast Cure Wounds on Bragi
 - Mubslai enters the alcove the Orcs came from and waits
 - Bragi waits also
-- Nires
+- Nires opens the second secret door the Orcs came through. Finds a trashed bedroom
+- Brugh searches the nightstand and finds it looted (by the Orcs)
+- Finol ...
 
 * Past Rounds
 ** Round 24
-- ~Torch timer: 5 (Adel is holding it)~
+- +Torch timer: 5 (Adel is holding it)+
   - A gust of wind blows through the room, from the one open door to the other.
     Adel failed a DEX check and the torch goes out. **We are in darkness**
 - Adel finishes putting on chainmail armor, drops leather armor and garlic he
