@@ -21,7 +21,7 @@ With the news of their death, people began combing the countryside for signs of
 their stronghold. You seem to have found something...
 
 #+ATTR_HTML: :style padding: 50px 5px 50px 0px; float: right; width: 300px
-[[./images/IMG_2384.jpg]]
+[[./images/IMG_2515.jpg]]
 
 
 ** Group Inventory [[https://docs.google.com/spreadsheets/d/1wKGWP43huwiTCq3OrRoo73uzoHA-rAxT_cWQCOraz-A/edit?usp=sharing][Spreadsheet]]
@@ -43,23 +43,34 @@ their stronghold. You seem to have found something...
 
 ** Open Threads
 - Had previously heard diabolic chanting while near Zelligar's bedroom
-- Orcs killed had perfume and silver mirror and comb. That's weird
+- Stinky hallway with spider webs
 
 
 ** Notes
-- Everyone is split between Rogahn's Bedroom (Room 5) and the secret alcove the
-  Orcs came through
+- Everyone is split between Rogahn's Bedroom (Room 5) and Melissa's Bedroom (Room 7)
 - Trashed bedroom to examine:
   - Water basin
   - Mirror
   - +Nighstand: nothing+
+  - +Tapestry+
 - Brugh is still fairly wounded
-- Finol opens the secret door the Orcs came through
+- Finol opens the secret door the Orcs came through (into Melissa's room)
 - The door out to the hallway is cracked open by Nires
-- Nires just lit a torch
 
+** Map Notes
+1. Magical voices
+2. Entry/Murder Room. Adventurers and Orcs fought. Both lost?
+3. Throne Room
+4. Zelligar's Room. Stone carving of army fleeing
+5. Rogahn's Bedroom
+6. Crossfit Rogahn's. "Work Hard, Don't Quit"
+7. Melissa's Bedroom
 
-* Current Round 25:
+* Current Round 26:
+- Adel
+
+* Past Rounds
+** Round 25
 - Torch timer: 10 (Adel)
 - +Adel finishes putting on his chainmail (again?) accepts the torch+
 - Adel cast Cure Wounds on Bragi
@@ -67,9 +78,8 @@ their stronghold. You seem to have found something...
 - Bragi waits also
 - Nires opens the second secret door the Orcs came through. Finds a trashed bedroom
 - Brugh searches the nightstand and finds it looted (by the Orcs)
-- Finol ...
+- Finol finds the tapestry highlights Melissa as Rogahn's consort
 
-* Past Rounds
 ** Round 24
 - +Torch timer: 5 (Adel is holding it)+
   - A gust of wind blows through the room, from the one open door to the other.
@@ -81,7 +91,6 @@ their stronghold. You seem to have found something...
 - Nires **lights his torch**
 - Brugh discovers a second secret door inside the alcove the Orcs came through
 - Nires inspects the new secret door for traps and finds none
-
 ** Round 23
 - Torch timer: 6 (Adel is holding it)
 - Adel strips the **chainmail armor** off the fourth body
