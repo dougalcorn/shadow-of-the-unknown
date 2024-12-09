@@ -47,15 +47,13 @@ their stronghold. You seem to have found something...
 
 
 ** Notes
-- Everyone is split between Rogahn's Bedroom (Room 5) and Melissa's Bedroom (Room 7)
+- Resting for the night in Melissa's room
 - Trashed bedroom to examine:
   - Water basin
   - +Mirror+
   - +Nighstand: nothing+
   - +Tapestry+
 - Brugh is still fairly wounded
-- Finol opens the secret door the Orcs came through (into Melissa's room)
-- The door out to the hallway is cracked open by Nires
 
 ** Map Notes
 1. Magical voices
@@ -66,13 +64,20 @@ their stronghold. You seem to have found something...
 6. Crossfit Rogahn's. "Work Hard, Don't Quit"
 7. Melissa's Bedroom
 
-* Current Round 26:
+* Current Rest:
+- Resting for the night in Melissa's room
+  - baracade the doors
+  - Bragi's watch uneventful
+  - Orcs outside during Brugh's watch
+  - Mubslai trying to talk them off
+* Past Rounds
+** Round 26
+- Torch timer: 9 (Adel)
 - Adel failed his Cure Wounds spell even after burning a Luck token from Mubslai
 - Mubslai inspects the mirror and finds nothing useful
 - Bragi suggests we sleep in this room
 - Three torches for a campfire and the party rests. Nires takes the first watch
 
-* Past Rounds
 ** Round 25
 - Torch timer: 10 (Adel)
 - +Adel finishes putting on his chainmail (again?) accepts the torch+
