@@ -64,13 +64,24 @@ their stronghold. You seem to have found something...
 6. Crossfit Rogahn's. "Work Hard, Don't Quit"
 7. Melissa's Bedroom
 
-* Current Rest:
-- Resting for the night in Melissa's room
-  - baracade the doors
-  - Bragi's watch uneventful
-  - Orcs outside during Brugh's watch
-  - Mubslai trying to talk them off
+* Current Round: Day 2, Round 2
+- Adel follows into Rogahn's room
+-
+
+
 * Past Rounds
+** Day 2, Round 1
+- Adel fails to cast a light spell, burns some luck from Mubslai and fails again
+- Mubslai tries to cast light, but can't because he didn't get a good night's sleep
+- Bragi lights a torch and leaves Melissa's room back into Rogahn's room
+- Nires follows into Rogahn's room
+- Brugh follows into Rogan's room
+** Resting for the night in Melissa's room
+- baracade the doors
+- Bragi's watch uneventful
+- Orcs outside during Brugh's watch
+- Mubslai talks to them and manages to make them go away, but is unable to get
+    back to sleep to get a restful night
 ** Round 26
 - Torch timer: 9 (Adel)
 - Adel failed his Cure Wounds spell even after burning a Luck token from Mubslai
