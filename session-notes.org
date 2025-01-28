@@ -21,7 +21,7 @@ With the news of their death, people began combing the countryside for signs of
 their stronghold. You seem to have found something...
 
 #+ATTR_HTML: :style padding: 50px 5px 50px 0px; float: right; width: 300px
-[[./images/IMG_2515.jpg]]
+[[./images/IMG_2977-d2r8.jpg]]
 
 
 ** Group Inventory [[https://docs.google.com/spreadsheets/d/1wKGWP43huwiTCq3OrRoo73uzoHA-rAxT_cWQCOraz-A/edit?usp=sharing][Spreadsheet]]
@@ -40,6 +40,10 @@ their stronghold. You seem to have found something...
   - **AC:** 17 **HP:** 7 **S:** +1 **D:** +1 **C:** +0 **I:** -1 **W:** +0 **Ch:** +3
 - [[file:Finol.pdf][Finol]], Half-Elven Theif (Peti29)
   - **AC:** 13 **HP:** 2 **S:** -1 **D:** +2 **C:** -2 **I:** +0 **W:** +0 **Ch:** -2
+- [[file:Nibbs lightfingers.pdf][Nibbs]], Dwarf Theif (bleakspider)
+  - **AC:** 13, **HP:** 5, **S:** +1, **D:** +2, **C:** +1, **I:** -2, **W:** +2, **Ch:** +0
+- [[file:Karla Krazz.pdf][Karla]], Kobold Theif (gronintale)
+  - **AC:** 13, **HP:** 5, **S:** +0, **D:** +2, **C:** +1, **I:** +1, **W:** -1, **Ch:** +1
 
 ** Open Threads
 - Had previously heard diabolic chanting while near Zelligar's bedroom
@@ -64,12 +68,74 @@ their stronghold. You seem to have found something...
 6. Crossfit Rogahn's. "Work Hard, Don't Quit"
 7. Melissa's Bedroom
 
-* Current Round: Day 2, Round 2
-- Adel follows into Rogahn's room
--
+** Pool Room:
+- a: pink, milky liquid, smells like mint, thick like milkshake
+- b: fizzy pool (of acid) with a key at the bottom
+- c: gray, milky liquid
+- d:
+- e: clear, colorless liquid
+- f: dark red liquid, smells like wine
+- g: empty
+- h:
+- i: shimmering, glowing, rainbow of sparkles
+- j: various shades of green swirling around, fruit juice
+- k: clear liquid, greenish hue with fish swimming in it
+- l:
+- m:
+- n:
 
+* Current Round:
+** Day 2, Round 9
+- Nires investigates pools e & i, scoops some of both e and i into empty perfume bottles
+- Brugh investigates green pool j, dips his sword in it and tastes it
+- Adel
 
 * Past Rounds
+** Day 2, Round 8
+- Nires examines pools f and g
+- Brugh moves up to the adventurers
+- Adel enters the room and approaches the adventurers with the light
+- Mubslai examines pool a
+- Bragi wakes the adventurers (Nibbs, the dwarf; Kara, the kobold)
+** Day 2, Round 7
+- Nires opens the door in the alcove. He finds a large room and hears someone snoring. it's a fancy bath house
+- Brugh moves up to join Nires at the door
+- Adel moves up to light the room without going in
+- Mubslai enters the room to reveal a large number of pools, mostly destroys his 10' pole in an acid pool
+- Bragi moves up to find two sleeping adventurers between pools j and k
+** Day 2, Round 6
+- Nires heads east back towards the "T junction"
+- Brugh moves back to Mubslai and hands off the lantern to him
+- Adel moves east with the torch and reveals an alcove with a door
+- Mubslai waits
+- Bragi joins the group
+** Day 2, Round 5
+- Nires double moves back to Rogahn's room
+- Brugh grabs the lantern out of the closet and back into Zelligar's room
+- Adel still waiting on the Bragi/Brugh and the lantern
+- Mubslai moves east towards the edge of the light
+- Bragi double moves back to Adel and hands off the torch to him
+** Day 2, Round 4
+- Adel waits for Bragi to return with the lantern
+- Mubslai makes smalltalk with Adel while waiting for Bragi
+- Bragi follows Brugh into Zelligar's room
+- Nires waits in the dark at the end of the hall
+- Brugh opens the door to Zelligar's closet and disturbs a giant centipede
+  - Brugh gets fist attack and kills the giant centipede
+** Day 2, Round 3
+- Adel moves into the hallway after checking that Brugh is back to full health
+- Mubslai moves down the hall to the edge of the dark
+- Bragi heads west down the hallway to Zelligar's room to fetch the lamp (as we're low on light sources)
+- Nires stays at the door to Rogahn's room
+- Brugh moves with Bragi to Zelligar's room
+- Finol - no move
+** Day 2, Round 2
+- Adel follows into Rogahn's room
+- Mubslai follows into Rogahn's room
+- Bragi opens the door to the throne room (from Rogahn's room) and checks that it's clear
+- Nires moves outside Rogahn's room as far East as he can to stay in the light
+- Brugh opens the eastern door of Melissa's room, but can't see any light
+- Finol - no turn
 ** Day 2, Round 1
 - Adel fails to cast a light spell, burns some luck from Mubslai and fails again
 - Mubslai tries to cast light, but can't because he didn't get a good night's sleep
