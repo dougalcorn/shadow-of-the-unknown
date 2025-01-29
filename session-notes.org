@@ -1,6 +1,7 @@
 #+title: Shadow of the Unknown
 #+OPTIONS: num:nil toc:nil
 #+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/raw/master/src/solarized_dark/solarized_dark.theme
+#+HTML_HEAD: <style> pre.src { font-family: monospace } </style>
 
 * Background
 Word has recently reached your area that two of the area's adventurers, the
@@ -81,14 +82,30 @@ their stronghold. You seem to have found something...
 - j: various shades of green swirling around, fruit juice
 - k: clear liquid, greenish hue with fish swimming in it
 - l:
-- m:
-- n:
+- m: clear, tasteless liquid with disappearing gold
+- n: small amount of water at bottom of pool
+
+#+BEGIN_SRC
+  .....
+  .mAn.
+~.......~
+~i.jXk.l~
+~N~...~~~
+~e~f~g~h~
+x~~~~~~~x
+xx~b~c~xx
+xMxxxxxxx
+#+END_SRC
+
+- =.= bright light
+- =~= dim light
+- =x= darkness
 
 * Current Round:
 ** Day 2, Round 9
 - Nires investigates pools e & i, scoops some of both e and i into empty perfume bottles
 - Brugh investigates green pool j, dips his sword in it and tastes it
-- Adel
+- Adel examined pools m and n: disappearing gold in pool m
 
 * Past Rounds
 ** Day 2, Round 8
