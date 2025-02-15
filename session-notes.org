@@ -22,7 +22,7 @@ With the news of their death, people began combing the countryside for signs of
 their stronghold. You seem to have found something...
 
 #+ATTR_HTML: :style padding: 50px 5px 50px 0px; float: right; width: 300px
-[[./images/IMG_2977-d2r8.jpg]]
+[[./images/IMG_3068-d2r14.jpg]]
 
 
 ** Group Inventory [[https://docs.google.com/spreadsheets/d/1wKGWP43huwiTCq3OrRoo73uzoHA-rAxT_cWQCOraz-A/edit?usp=sharing][Spreadsheet]]
@@ -73,28 +73,29 @@ their stronghold. You seem to have found something...
 - a: pink, milky liquid, smells like mint, thick like milkshake
 - b: fizzy pool (of acid) with a key at the bottom
 - c: gray, milky liquid
-- d:
-- e: clear, colorless liquid
+- d: sickly green goo that looks shiny and wet
+- e: clear, colorless liquid (tastes like clean water)
 - f: dark red liquid, smells like wine
 - g: empty
-- h:
-- i: shimmering, glowing, rainbow of sparkles
+- h: steaming and bubbling
+- i: shimmering, glowing, rainbow of sparkles (turns you slighly, glowing blue)
 - j: various shades of green swirling around, fruit juice
 - k: clear liquid, greenish hue with fish swimming in it
-- l:
+- l: large white stone that squeals
 - m: clear, tasteless liquid with disappearing gold
 - n: small amount of water at bottom of pool
 
 #+BEGIN_SRC
-  .....
-  .mAn.
-~.......~
-~i.jXk.l~
-~N~...~~~
-~e~f~g~h~
-x~~~~~~~x
-xx~b~c~xx
-xMxxxxxxx
+  xxx~~
+  xx~b~
+xxxx~~~~N
+xxxj~k.l.
+xx~~~....
+~e.f.g.hU
+x~.....MA
+~a~b.c.d.
+xx~~~.DKB=...
+    ^
 #+END_SRC
 
 - =.= bright light
@@ -102,12 +103,51 @@ xMxxxxxxx
 - =x= darkness
 
 * Current Round:
+** Day 2, Round 14:
+- Nires moves down to guard the south door
+- Brugh enters the room and examines the desk
+  - Finds a single stack of papers, a drawer, and a metal ball under the desk attached with a wire to the drawer
+- Adel moves into the room to try and discover more
+* Past Rounds:
+** Day 2, Round 13:
+- Nires searches the middle of the east wall
+- Brugh makes a double move to the south end of the east wall
+- Adel makes a double move to the east wall
+- Mubslai puts his pole in pool d and finds it's another type of acid
+- Bragi searches the south of the east wall and finds a secret door that he opens
+- Nibbs appraches the door and can see a desk and a painting
+- Karla also approaches the door and sees similar. The painting is probably valuable and very heavy to move
+** Day 2, Round 12
+- Conversation continues with the Kobolds
+  - They are looking for an artifact that is a green gem (which Bragi has on him)
+  - Brugh lies and says we don't have the gem and haven't seen it
+  - They leave
+- Mubslai takes the torch and checks out pool d and sticks his pole in it
+- Bragi uses a rope to try and mix pool C and pool B, it offers some protection from the acid
+** Day 2, Round 11
+- Nires drinks more of the liquid from pool i and gets slightly more blue, but no other effects
+- Brugh lights a new torch and searches along the north section of the eastern wall
+- Adel finishes searching the last of the western wall and his torch goes out
+- Kobolds enter the room from the southern enterance!
+  - Karla talks to them, makes funny jokes, and attempts to trade with them
+- Meanwhile, Mubslai, Bragi and Nibbs move into better tactical positions should this turn into a fight
+** Day 2, Round 10
+- Nires tastes the liquit from pools e and i
+- Brugh examines "pool" L. empty of liquid but contains a large white stone with an eerie vapor
+  - squeals like a pig or a rat when touched with his sword
+- Adel searches the remaining section of the north wall and finds nothing
+- Mubslai confirms the gold in pool m is an illusion
+- Bragi finishes searching the north wall and finds nothing
+- Nibbs hammers iron spikes in the wall in an effort to get higher and see the pattern on the floor
+- Karla searches the southern end of the west wall and finds nothing
 ** Day 2, Round 9
 - Nires investigates pools e & i, scoops some of both e and i into empty perfume bottles
 - Brugh investigates green pool j, dips his sword in it and tastes it
 - Adel examined pools m and n: disappearing gold in pool m
-
-* Past Rounds
+- Mubslai tastes pool a, no effects
+- Bragi searches the back wall to and finds nothing
+- Nibbs searches the center of the back wall and finds nothing
+- Karla attempts to get the key out of pool b and determines that copper can survive the acid.
 ** Day 2, Round 8
 - Nires examines pools f and g
 - Brugh moves up to the adventurers
