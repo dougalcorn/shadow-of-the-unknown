@@ -107,7 +107,27 @@ xx~~~.DKB=...
 - Nires moves down to guard the south door
 - Brugh enters the room and examines the desk
   - Finds a single stack of papers, a drawer, and a metal ball under the desk attached with a wire to the drawer
-- Adel moves into the room to try and discover more
+- Adel moves into the room to try and discover more and triggers a swarm of giant rats!
+*** Combat round 1:
+- Adel becomes invisible and steps out of the room
+- The rats swarm Bragi. One bites him for 5 HP, but at least he doesn't contract Filth Fever
+- Mubslai kills a rat with magic missile
+- Bragi tries to kill one of the rats, but misses
+- Nibbs shots his shortbow at the rats, but misses
+- Karla kills one of the rats. 2 down, 3 to go
+- Nires shots one of the rats with his bow, but misses
+- Brugh tries to hit a rat with a sword, but misses
+*** Combat round 2:
+- Adel casts cure wounds on Bragi for 1 point of healing
+- another rat bites Bragi, knocking him unconscious and infecting him (he loses 3 CON)
+- a rat bites Karla for 2 damage and infects her
+- Mubslai fires another magic missile
+- Bragi succeeds his death save
+- Nibbs kills a rat with his shortbow. 3 down, 2 to go
+- Karla attacks a rat and kills it! 4 down, 1 to go
+- Brugh manages to hit a rat for 2 damage
+*** Combat round 3:
+- Mubslai
 * Past Rounds:
 ** Day 2, Round 13:
 - Nires searches the middle of the east wall
