@@ -44,7 +44,7 @@ a very close resemblance to the head/mouth of the Demogorgon from season 1 (as
 pictured to the right). It's also worth nothing that the Spider Monster of
 season 3 was a form of a flesh thrall that would absorb bodies to become a very
 gross amalgamation. While the shambling mound is entirely plant based (as
-opposed to flesh/bone based), it also can absorb creatures into it. To
+opposed to flesh/bone based), it also can absorb creatures into it.
 
 #+ATTR_HTML: :style padding: 5px 25px 50px 0px; float: right; width: 175px
 [[./images/shambling-mound-raw-print.jpeg]]
