@@ -58,7 +58,7 @@ A1 mini, and here we are.
 The A1 mini is a great little printer. There's definitely some technical skill
 to get any printer to produce good prints. It's been a learning journey for
 sure. My son was doubtful my printer could do this model justice, but I think it
-turned out great.
+turned out great. It only took one attempt and printed in just under 8 hours.
 
 #+ATTR_HTML: :style padding: 5px 25px 0px 0px; float: left; width: 175px
 [[./images/shambling-mound-first-contrast.jpeg]]
