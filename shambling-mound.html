@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-02-19 Wed 09:27 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Shambling Mound</title>
+<meta name="author" content="Doug Alcorn" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<style type="text/css">
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap;word-wrap:break-word}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}html{font-family:'PT Sans',sans-serif}pre,code{font-family:'Inconsolata',sans-serif}h1,h2,h3,h4,h5,h6{font-family:'PT Sans Narrow',sans-serif;font-weight:700}html{background-color:#073642;color:#839496;margin:1em}body{background-color:#002b36;margin:0 auto;max-width:23cm;border:1pt solid #586e75;padding:1em}code{background-color:#073642;padding:2px}a{color:#b58900}a:visited{color:#cb4b16}a:hover{color:#cb4b16}h1{color:#d33682}h2,h3,h4,h5,h6{color:#859900}pre{background-color:#002b36;color:#839496;border:1pt solid #586e75;padding:1em;box-shadow:5pt 5pt 8pt #073642}pre code{background-color:#002b36}h1{font-size:2.8em}h2{font-size:2.4em}h3{font-size:1.8em}h4{font-size:1.4em}h5{font-size:1.3em}h6{font-size:1.15em}.tag{background-color:#073642;color:#d33682;padding:0 .2em}.todo,.next,.done{color:#002b36;background-color:#dc322f;padding:0 .2em}.tag{-webkit-border-radius:.35em;-moz-border-radius:.35em;border-radius:.35em}.TODO{-webkit-border-radius:.2em;-moz-border-radius:.2em;border-radius:.2em;background-color:#2aa198}.NEXT{-webkit-border-radius:.2em;-moz-border-radius:.2em;border-radius:.2em;background-color:#268bd2}.ACTIVE{-webkit-border-radius:.2em;-moz-border-radius:.2em;border-radius:.2em;background-color:#268bd2}.DONE{-webkit-border-radius:.2em;-moz-border-radius:.2em;border-radius:.2em;background-color:#859900}.WAITING{-webkit-border-radius:.2em;-moz-border-radius:.2em;border-radius:.2em;background-color:#cb4b16}.HOLD{-webkit-border-radius:.2em;-moz-border-radius:.2em;border-radius:.2em;background-color:#d33682}.NOTE{-webkit-border-radius:.2em;-moz-border-radius:.2em;border-radius:.2em;background-color:#d33682}.CANCELLED{-webkit-border-radius:.2em;-moz-border-radius:.2em;border-radius:.2em;background-color:#859900}
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Shambling Mound</h1>
+
+<div id="org4fc8186" class="figure">
+<p><img src="./images/shambling-mound-1977.png" alt="shambling-mound-1977.png" style="padding: 50px 5px 10px 25px; float: right; width: 280px" />
+</p>
+</div>
+
+<p>
+This is a short journal of my project to 3D print and paint a Shambling Mound mini.
+</p>
+
+<p>
+If you&rsquo;re not familiar a <a href="https://www.dndbeyond.com/monsters/17011-shambling-mound?srsltid=AfmBOor6Kr0Y3KnSUNwX81uFpGzPakMcqUguxSticG9yYOV6DLwGQaIj">Shambling Mound</a> is a D&amp;D monster dating back to the
+original <a href="https://www.americanroads.us/DandD/ADnD_1e_Monster_Manual.pdf">Monster Manual</a> by Gary Gygax in 1977.
+</p>
+
+<blockquote>
+<p>
+Shambling mounds, or &ldquo;shamblen,&rdquo; are found in dismal marshes or
+certain wet subterranean places. They are omnivorous, feeding upon any
+living material (via their weird roots and tendrils). They attack fearlessly,
+clubbing with their limbs twice per melee round. If both of a shambler&rsquo;s
+clubbing attacks hit a single opponent, the victim is entangled and will be
+suffocated in the creature&rsquo;s slime in 2-8 melee rounds unless the creature
+is killed.
+</p>
+
+<p>
+The brain of the shambler is located in its mid-portion, and its thick fibrous
+layers make it difficult to penetrate to its only vital area. In fact, most hits
+upon it do but little damage. As it is wet and slimy, fire
+has no effect, lightning causes it to grow (add 1 hit die), and cold does
+either one-half or no damage due to its vegetable constitution. All
+weapons score only one-half damage. It can flatten itself, so that crushing
+has small effect. Spells which affect plants are effective against shambling
+mounds, plant control and charm plant being good examples.
+</p>
+</blockquote>
+
+
+<div id="orgf934a78" class="figure">
+<p><img src="./images/tpgeo-shambling-mound.jpg" alt="tpgeo-shambling-mound.jpg" style="padding: 5px 25px 50px 0px; float: left; width: 280px" />
+</p>
+</div>
+
+
+<div id="orgf7c9dbd" class="figure">
+<p><img src="./images/stranger-things-demogorgon.webp" alt="stranger-things-demogorgon.webp" style="padding: 5px 25px 50px 0px; float: right; width: 175px" />
+</p>
+</div>
+
+<p>
+I&rsquo;m a patreon subscriber to <a href="https://www.theprintinggoeseveron.com/">The Printing Goes Ever On</a>. They released a set of
+models called <a href="https://www.theprintinggoeseveron.com/shop/beowulfs-deceit-february-2025/">Beowulf&rsquo;s Deceit</a> that included a Shambling Mound. Pictured to the
+left is a <i>rendering</i> of the model (that&rsquo;s not an actual print). You can barely
+see the face of an adventurer that&rsquo;s been absorbed into the shambler. This model
+also looks to be inspired by <a href="https://www.imdb.com/title/tt4574334/">Stranger Things</a>. The head/mouth of the shambler has
+a very close resemblance to the head/mouth of the Demogorgon from season 1 (as
+pictured to the right). It&rsquo;s also worth nothing that the Spider Monster of
+season 3 was a form of a flesh thrall that would absorb bodies to become a very
+gross amalgamation. While the shambling mound is entirely plant based (as
+opposed to flesh/bone based), it also can absorb creatures into it. To
+</p>
+
+
+<div id="org58dc073" class="figure">
+<p><img src="./images/shambling-mound-raw-print.jpeg" alt="shambling-mound-raw-print.jpeg" style="padding: 5px 25px 50px 0px; float: right; width: 175px" />
+</p>
+</div>
+
+<p>
+I recently bought a <a href="https://bambulab.com/en/a1-mini">Bambu Lab A1 mini</a> 3D printer. I had resisted buying one for
+a long time. However, my daughter was saying she wanted to try 3D printing some
+of her art projects. Then I saw the <a href="https://www.theprintinggoeseveron.com/shop/welcome-trove-remastered-and-expanded/">Welcome Trove</a> from TPGEO that was beautiful
+models of Tolkien&rsquo;s Fellowship of The Ring. There was an end of year sale on the
+A1 mini, and here we are.
+</p>
+
+<p>
+The A1 mini is a great little printer. There&rsquo;s definitely some technical skill
+to get any printer to produce good prints. It&rsquo;s been a learning journey for
+sure. My son was doubtful my printer could do this model justice, but I think it
+turned out great.
+</p>
+
+
+<div id="orgfdc7b98" class="figure">
+<p><img src="./images/shambling-mound-first-contrast.jpeg" alt="shambling-mound-first-contrast.jpeg" style="padding: 5px 25px 0px 0px; float: left; width: 175px" />
+</p>
+</div>
+
+
+<div id="org65f9bea" class="figure">
+<p><img src="./images/shambling-mound-high-contrast.jpeg" alt="shambling-mound-high-contrast.jpeg" style="padding: 5px 25px 10px 0px; float: left; width: 175px" />
+</p>
+</div>
+
+<p>
+Because I&rsquo;m just learning to paint, I&rsquo;m still experimenting with various
+techniques. I bought <a href="https://us.thearmypainter.com/products/speedpaint-starter-set-2-0">Army Painter&rsquo;s Speedpaint Starter Set</a> to use a technique
+called <a href="https://www.youtube.com/watch?v=bH3WGHw9eDw">Slapchop</a>. The basic idea is to prime the mini in black, paint a grayscale
+undercode paying close attention to your light source and then paint with mostly
+translucent contrast paints. With the thinner paints, the under paint of
+highlights increases the value of the colors.
+</p>
+
+<p>
+The left-most image is my first attempt. On a pure black prime, I used a dry
+brush to mostly cover it with gray. This left the darkest parts still black, but
+most of the model was dark gray. I then did another coat with a brighter gray.
+This left a nice gradient between the blacks and most of the model that was
+brighter. Then I went back with an almost white (<a href="https://gnomishbazaar.com/products/vallejo-model-color-pale-sand-70837?srsltid=AfmBOop3PQL06V9VmsSL8wwR21na2QksZPPQTdU7KO5I9f8UGOw17-WW">Vallejo Model Pale Sand</a>) and
+dry brushed just the highlights. After that, I used <a href="https://a.co/d/ikH3rdn">Citadel Nuln Oil</a> shading
+wash to add back some of the details by filling in the dark edges.
+</p>
+
+<p>
+After letting the wash fully dry, I did a little highlighting with a brush using
+straight Pale Sand. After showing some folks online, they suggested adding more
+highlights. So the next picture to the left is after I went back and touched up
+as many of the hightlights as I could without losing the contrast.
+</p>
+
+
+<div id="org15c8e47" class="figure">
+<p><img src="./images/shambling-mound-procreate-painted.jpg" alt="shambling-mound-procreate-painted.jpg" style="padding: 15px 25px 10px 25px; float: right; width: 375px" />
+</p>
+</div>
+
+<p>
+One of my favorite series of tutorial videos for this technique is from Dana
+Howl. She has a great video on <a href="https://www.youtube.com/watch?v=LGYWYDv8Gq0">How to Underpaint Minatures</a> and <a href="https://www.youtube.com/watch?v=A13JfFJxtIg">How to Glaze
+Minatures</a>. She also has another video on <a href="https://www.youtube.com/watch?v=hchM22RIsnU">How to Plan Color Schemes using MS
+Paint</a>. I&rsquo;ve put a lot of effort into this shambling mound and I don&rsquo;t want to
+screw it up. Frankly, I&rsquo;m a little scared to put color on it.
+</p>
+
+<p>
+So I decided to use Dana&rsquo;s MS Paint technique, but using Procreate on my iPad.
+Dana also has a page up showing how all the <a href="https://howlcorp.com/colors">colors</a> look painted on actual minis.
+I went through that page and built up a color pallet. Using that I was able to
+paint a 50% transparent layer with various colors. My goal was to figure out
+what parts were brown/woody, what parts were green/planty.
+</p>
+
+<p>
+The images to the right are not actually painted in real life. That is an export
+from Procreate. I thought this was really neat. I could definitely make a few
+more attempts. I really only used one brown, a red, and two or three greens.
+There&rsquo;s probably an opportunity to use some yellows and oranges too. This kind
+of color pallet work is an area I need more practice.
+</p>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Doug Alcorn</p>
+<p class="date">Created: 2025-02-19 Wed 09:27</p>
+</div>
+</body>
+</html>

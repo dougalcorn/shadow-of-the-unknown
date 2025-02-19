@@ -1,0 +1,108 @@
+#+title: Shambling Mound
+#+OPTIONS: num:nil toc:nil
+#+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/raw/master/src/solarized_dark/solarized_dark.theme
+
+#+ATTR_HTML: :style padding: 50px 5px 10px 25px; float: right; width: 280px
+[[./images/shambling-mound-1977.png]]
+
+This is a short journal of my project to 3D print and paint a Shambling Mound mini.
+
+If you're not familiar a [[https://www.dndbeyond.com/monsters/17011-shambling-mound?srsltid=AfmBOor6Kr0Y3KnSUNwX81uFpGzPakMcqUguxSticG9yYOV6DLwGQaIj][Shambling Mound]] is a D&D monster dating back to the
+original [[https://www.americanroads.us/DandD/ADnD_1e_Monster_Manual.pdf][Monster Manual]] by Gary Gygax in 1977.
+
+#+begin_quote
+Shambling mounds, or "shamblen," are found in dismal marshes or
+certain wet subterranean places. They are omnivorous, feeding upon any
+living material (via their weird roots and tendrils). They attack fearlessly,
+clubbing with their limbs twice per melee round. If both of a shambler's
+clubbing attacks hit a single opponent, the victim is entangled and will be
+suffocated in the creature's slime in 2-8 melee rounds unless the creature
+is killed.
+
+The brain of the shambler is located in its mid-portion, and its thick fibrous
+layers make it difficult to penetrate to its only vital area. In fact, most hits
+upon it do but little damage. As it is wet and slimy, fire
+has no effect, lightning causes it to grow (add 1 hit die), and cold does
+either one-half or no damage due to its vegetable constitution. All
+weapons score only one-half damage. It can flatten itself, so that crushing
+has small effect. Spells which affect plants are effective against shambling
+mounds, plant control and charm plant being good examples.
+#+end_quote
+
+#+ATTR_HTML: :style padding: 5px 25px 50px 0px; float: left; width: 280px
+[[./images/tpgeo-shambling-mound.jpg]]
+
+#+ATTR_HTML: :style padding: 5px 25px 50px 0px; float: right; width: 175px
+[[./images/stranger-things-demogorgon.webp]]
+
+I'm a patreon subscriber to [[https://www.theprintinggoeseveron.com/][The Printing Goes Ever On]]. They released a set of
+models called [[https://www.theprintinggoeseveron.com/shop/beowulfs-deceit-february-2025/][Beowulf's Deceit]] that included a Shambling Mound. Pictured to the
+left is a /rendering/ of the model (that's not an actual print). You can barely
+see the face of an adventurer that's been absorbed into the shambler. This model
+also looks to be inspired by [[https://www.imdb.com/title/tt4574334/][Stranger Things]]. The head/mouth of the shambler has
+a very close resemblance to the head/mouth of the Demogorgon from season 1 (as
+pictured to the right). It's also worth nothing that the Spider Monster of
+season 3 was a form of a flesh thrall that would absorb bodies to become a very
+gross amalgamation. While the shambling mound is entirely plant based (as
+opposed to flesh/bone based), it also can absorb creatures into it. To
+
+#+ATTR_HTML: :style padding: 5px 25px 50px 0px; float: right; width: 175px
+[[./images/shambling-mound-raw-print.jpeg]]
+
+I recently bought a [[https://bambulab.com/en/a1-mini][Bambu Lab A1 mini]] 3D printer. I had resisted buying one for
+a long time. However, my daughter was saying she wanted to try 3D printing some
+of her art projects. Then I saw the [[https://www.theprintinggoeseveron.com/shop/welcome-trove-remastered-and-expanded/][Welcome Trove]] from TPGEO that was beautiful
+models of Tolkien's Fellowship of The Ring. There was an end of year sale on the
+A1 mini, and here we are.
+
+The A1 mini is a great little printer. There's definitely some technical skill
+to get any printer to produce good prints. It's been a learning journey for
+sure. My son was doubtful my printer could do this model justice, but I think it
+turned out great.
+
+#+ATTR_HTML: :style padding: 5px 25px 0px 0px; float: left; width: 175px
+[[./images/shambling-mound-first-contrast.jpeg]]
+
+#+ATTR_HTML: :style padding: 5px 25px 10px 0px; float: left; width: 175px
+[[./images/shambling-mound-high-contrast.jpeg]]
+
+Because I'm just learning to paint, I'm still experimenting with various
+techniques. I bought [[https://us.thearmypainter.com/products/speedpaint-starter-set-2-0][Army Painter's Speedpaint Starter Set]] to use a technique
+called [[https://www.youtube.com/watch?v=bH3WGHw9eDw][Slapchop]]. The basic idea is to prime the mini in black, paint a grayscale
+undercode paying close attention to your light source and then paint with mostly
+translucent contrast paints. With the thinner paints, the under paint of
+highlights increases the value of the colors.
+
+The left-most image is my first attempt. On a pure black prime, I used a dry
+brush to mostly cover it with gray. This left the darkest parts still black, but
+most of the model was dark gray. I then did another coat with a brighter gray.
+This left a nice gradient between the blacks and most of the model that was
+brighter. Then I went back with an almost white ([[https://gnomishbazaar.com/products/vallejo-model-color-pale-sand-70837?srsltid=AfmBOop3PQL06V9VmsSL8wwR21na2QksZPPQTdU7KO5I9f8UGOw17-WW][Vallejo Model Pale Sand]]) and
+dry brushed just the highlights. After that, I used [[https://a.co/d/ikH3rdn][Citadel Nuln Oil]] shading
+wash to add back some of the details by filling in the dark edges.
+
+After letting the wash fully dry, I did a little highlighting with a brush using
+straight Pale Sand. After showing some folks online, they suggested adding more
+highlights. So the next picture to the left is after I went back and touched up
+as many of the hightlights as I could without losing the contrast.
+
+#+ATTR_HTML: :style padding: 15px 25px 10px 25px; float: right; width: 375px
+[[./images/shambling-mound-procreate-painted.jpg]]
+
+One of my favorite series of tutorial videos for this technique is from Dana
+Howl. She has a great video on [[https://www.youtube.com/watch?v=LGYWYDv8Gq0][How to Underpaint Minatures]] and [[https://www.youtube.com/watch?v=A13JfFJxtIg][How to Glaze
+Minatures]]. She also has another video on [[https://www.youtube.com/watch?v=hchM22RIsnU][How to Plan Color Schemes using MS
+Paint]]. I've put a lot of effort into this shambling mound and I don't want to
+screw it up. Frankly, I'm a little scared to put color on it.
+
+So I decided to use Dana's MS Paint technique, but using Procreate on my iPad.
+Dana also has a page up showing how all the [[https://howlcorp.com/colors][colors]] look painted on actual minis.
+I went through that page and built up a color pallet. Using that I was able to
+paint a 50% transparent layer with various colors. My goal was to figure out
+what parts were brown/woody, what parts were green/planty.
+
+The images to the right are not actually painted in real life. That is an export
+from Procreate. I thought this was really neat. I could definitely make a few
+more attempts. I really only used one brown, a red, and two or three greens.
+There's probably an opportunity to use some yellows and oranges too. This kind
+of color pallet work is an area I need more practice.
