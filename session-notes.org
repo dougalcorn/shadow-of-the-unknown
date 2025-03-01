@@ -27,7 +27,7 @@ their stronghold. You seem to have found something...
 
 ** Group Inventory [[https://docs.google.com/spreadsheets/d/1wKGWP43huwiTCq3OrRoo73uzoHA-rAxT_cWQCOraz-A/edit?usp=sharing][Spreadsheet]]
 
-** Turn Order
+** Party Characters
 - [[file:Adel.pdf][Adel]], Hafling Priest (supercorn)
   - **AC:** 14 **HP:** 4 **S:** -2 **D:** +2 **C:** -2 **I:** -1 **W:** +3 **Ch:** +2
 - GM (Dr Pete)
@@ -48,17 +48,14 @@ their stronghold. You seem to have found something...
 
 ** Open Threads
 - Had previously heard diabolic chanting while near Zelligar's bedroom
+  - The Kobolds confirmed this singing during their Zombie attack
 - Stinky hallway with spider webs
+- Karla is paralyzed
+- Untrapped, but locked drawer of desk in secret room off the pool room
+- Bragi and Karla have Filth Fever
+- The small group of Kobolds that fled to the pool room from the Zombies
+- Mysterious figure hissed at us and fled.
 
-
-** Notes
-- Resting for the night in Melissa's room
-- Trashed bedroom to examine:
-  - Water basin
-  - +Mirror+
-  - +Nighstand: nothing+
-  - +Tapestry+
-- Brugh is still fairly wounded
 
 ** Map Notes
 1. Magical voices
@@ -85,27 +82,45 @@ their stronghold. You seem to have found something...
 - m: clear, tasteless liquid with disappearing gold
 - n: small amount of water at bottom of pool
 
-#+BEGIN_SRC
-  xxx~~
-  xx~b~
-xxxx~~~~N
-xxxj~k.l.
-xx~~~....
-~e.f.g.hU
-x~.....MA
-~a~b.c.d.
-xx~~~.DKB=...
-    ^
-#+END_SRC
-
-- =.= bright light
-- =~= dim light
-- =x= darkness
-
 * Current Round:
-** Day 2, Round 15:
-- Mubslai
+** Day 2, Round 18:
+- Brugh proposes we leave and head back to town and the party agrees
+  - It's probably 2 days back to the small town
+  - About 6 turns of double moving to exit dungeon
+- As we leave the pool room we see a mysterious figure head straight south and
+  then turn east.
 * Past Rounds:
+** Day 2, Round 17:
+- Brugh waits near the door for our next move
+- Adel asks the Kobolds about where the Zombies came from:
+  - They were in big room with artwork on the wall
+  - Zombies came from nowhere and destroyed half their party
+  - There was creepy singing while the Zombies attacked the Kobolds
+- Bragi heads to the south door of the pool room
+- Nibbs briefly attempts to check the desk drawers, finds them locked, and then
+  flees the gas filled room and shuts the door
+- Karla is paralyzed
+- Nires tries to feed sparkle potion to Karla that does not affect her paralyzation
+** Day 2, Combat Round 16.1:
+- 2 Zombies enter the room
+- Adel casts turn undead: destroys one of the zombies and the other flees in terror
+** Day 2, Round 16:
+- Mubslai is over by the theives giving them light for their disarming the trap
+  - Asks the Kobolds what's up: Zombies!
+- Bragi moves to the door to prepare for Zombies
+- Karla stumbles and crashes into Nibbs triggering the trap: gas fills the secret room
+  - Karla is paralized, Nibbs and Brugh are not
+- Brugh grabs Karla and exits the room
+- Adel moves near the door in preparation for the Zombies
+** Day 2, Round 15:
+- Mubslai stabalizes Bragi
+- Bragi is unconscious
+- Nibbs begins inspecting trap on the desk in the secret room
+- Karla and Nibbs work together to begin disarming the trap
+- Nires keeps watch on the door
+- Brugh searches the secret room further
+- Adel heals Bragi for 5 points
+- A few Kobolds rush into the room asif running from something
 ** Day 2, Round 14:
 - Nires moves down to guard the south door
 - Brugh enters the room and examines the desk
